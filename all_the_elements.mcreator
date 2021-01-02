@@ -1,0 +1,38 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "NikelOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nikel_ore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.all_the_elements.nikel_ore": "Nikel Ore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "all_the_elements",
+    "modName": "ALL THE ELEMENTS",
+    "version": "1.0.0",
+    "author": "Usuari, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.alltheelements",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
