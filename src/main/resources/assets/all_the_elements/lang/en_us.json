@@ -1,4 +1,5 @@
 {
   "block.all_the_elements.nikel_ore": "Nikel Ore",
-  "block.all_the_elements.copper_ore": "Copper Ore"
+  "block.all_the_elements.copper_ore": "Copper Ore",
+  "item.all_the_elements.nickel_ingot": "Nickel Ingot"
 }

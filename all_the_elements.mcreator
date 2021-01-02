@@ -18,6 +18,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_ore"
+    },
+    {
+      "name": "NickelIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nickel_ingot"
     }
   ],
   "variable_elements": [],
@@ -25,7 +34,8 @@
   "language_map": {
     "en_us": {
       "block.all_the_elements.nikel_ore": "Nikel Ore",
-      "block.all_the_elements.copper_ore": "Copper Ore"
+      "block.all_the_elements.copper_ore": "Copper Ore",
+      "item.all_the_elements.nickel_ingot": "Nickel Ingot"
     }
   },
   "workspaceSettings": {
