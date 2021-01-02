@@ -9,13 +9,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nikel_ore"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.all_the_elements.nikel_ore": "Nikel Ore"
+      "block.all_the_elements.nikel_ore": "Nikel Ore",
+      "block.all_the_elements.copper_ore": "Copper Ore"
     }
   },
   "workspaceSettings": {
