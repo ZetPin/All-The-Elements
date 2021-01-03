@@ -1,12 +1,21 @@
 
 package net.mcreator.alltheelements.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.alltheelements.AllTheElementsModElements;
+
 @AllTheElementsModElements.ModElement.Tag
 public class Titanium_ArmorPickaxeItem extends AllTheElementsModElements.ModElement {
-
 	@ObjectHolder("all_the_elements:titanium_armor_pickaxe")
 	public static final Item block = null;
-
 	public Titanium_ArmorPickaxeItem(AllTheElementsModElements instance) {
 		super(instance, 49);
 	}
@@ -38,8 +47,6 @@ public class Titanium_ArmorPickaxeItem extends AllTheElementsModElements.ModElem
 				return Ingredient.fromStacks(new ItemStack(TitaniumIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("titanium_armor_pickaxe"));
 	}
-
 }
