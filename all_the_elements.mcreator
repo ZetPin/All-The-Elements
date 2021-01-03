@@ -261,6 +261,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_hoe_recipe"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_ore"
     }
   ],
   "variable_elements": [],
@@ -277,6 +286,7 @@
       "block.all_the_elements.malachite_ore": "Malachite Ore",
       "item.all_the_elements.malachite_axe": "Malachite Axe",
       "item.all_the_elements.copper_ingot": "Copper Ingot",
+      "block.all_the_elements.cobalt_ore": "Cobalt Ore",
       "item.all_the_elements.nickel_ingot": "Nickel Ingot",
       "item.all_the_elements.malachite_ingot": "Malachite Ingot",
       "item.all_the_elements.copper_axe": "Copper Axe",
