@@ -1,12 +1,21 @@
 
 package net.mcreator.alltheelements.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.alltheelements.AllTheElementsModElements;
+
 @AllTheElementsModElements.ModElement.Tag
 public class Zirconium_ToolsPickaxeItem extends AllTheElementsModElements.ModElement {
-
 	@ObjectHolder("all_the_elements:zirconium_tools_pickaxe")
 	public static final Item block = null;
-
 	public Zirconium_ToolsPickaxeItem(AllTheElementsModElements instance) {
 		super(instance, 63);
 	}
@@ -38,8 +47,6 @@ public class Zirconium_ToolsPickaxeItem extends AllTheElementsModElements.ModEle
 				return Ingredient.fromStacks(new ItemStack(ZirconiumIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("zirconium_tools_pickaxe"));
 	}
-
 }
