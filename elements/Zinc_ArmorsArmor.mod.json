@@ -1,0 +1,57 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "zinc_armors_head",
+    "enableBody": true,
+    "textureBody": "zinc_armors_body",
+    "enableLeggings": true,
+    "textureLeggings": "zinc_armors_leggings",
+    "enableBoots": true,
+    "textureBoots": "zinc_armors_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "zinc_armors",
+    "helmetName": "Zinc_Armors Helmet",
+    "bodyName": "Zinc_Armors Chestplate",
+    "leggingsName": "Zinc_Armors Leggings",
+    "bootsName": "Zinc_Armors Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 15,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ZincIngot"
+      }
+    ]
+  }
+}
