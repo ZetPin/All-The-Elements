@@ -96,7 +96,11 @@
       "Surface"
     ],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE#0"
+      }
+    ],
     "frequencyPerChunks": 15,
     "frequencyOnChunk": 6,
     "minGenerateHeight": 1,
