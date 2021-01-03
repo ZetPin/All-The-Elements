@@ -1,21 +1,12 @@
 
 package net.mcreator.alltheelements.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.HoeItem;
-
-import net.mcreator.alltheelements.AllTheElementsModElements;
-
 @AllTheElementsModElements.ModElement.Tag
 public class Copper_ToolsHoeItem extends AllTheElementsModElements.ModElement {
+
 	@ObjectHolder("all_the_elements:copper_tools_hoe")
 	public static final Item block = null;
+
 	public Copper_ToolsHoeItem(AllTheElementsModElements instance) {
 		super(instance, 22);
 	}
@@ -47,6 +38,8 @@ public class Copper_ToolsHoeItem extends AllTheElementsModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
 		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("copper_tools_hoe"));
 	}
+
 }

@@ -1,21 +1,12 @@
 
 package net.mcreator.alltheelements.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.alltheelements.AllTheElementsModElements;
-
 @AllTheElementsModElements.ModElement.Tag
 public class Malachite_ToolsShovelItem extends AllTheElementsModElements.ModElement {
+
 	@ObjectHolder("all_the_elements:malachite_tools_shovel")
 	public static final Item block = null;
+
 	public Malachite_ToolsShovelItem(AllTheElementsModElements instance) {
 		super(instance, 38);
 	}
@@ -47,6 +38,8 @@ public class Malachite_ToolsShovelItem extends AllTheElementsModElements.ModElem
 				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("malachite_tools_shovel"));
 	}
+
 }

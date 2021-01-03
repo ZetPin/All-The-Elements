@@ -1,21 +1,12 @@
 
 package net.mcreator.alltheelements.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.alltheelements.AllTheElementsModElements;
-
 @AllTheElementsModElements.ModElement.Tag
 public class Malachite_ToolsSwordItem extends AllTheElementsModElements.ModElement {
+
 	@ObjectHolder("all_the_elements:malachite_tools_sword")
 	public static final Item block = null;
+
 	public Malachite_ToolsSwordItem(AllTheElementsModElements instance) {
 		super(instance, 37);
 	}
@@ -47,6 +38,8 @@ public class Malachite_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+
 		}.setRegistryName("malachite_tools_sword"));
 	}
+
 }

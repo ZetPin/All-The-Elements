@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "1": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "2": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "3": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "5": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     }
   },
   "result": {
-    "item": "all_the_elements:copper_armor_armor_helmet",
+    "item": "all_the_elements:unknown_element_helmet",
     "count": 1
   }
 }

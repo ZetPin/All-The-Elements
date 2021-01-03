@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "1": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "2": {
-      "item": "all_the_elements:copper_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "4": {
       "item": "minecraft:stick"
@@ -24,7 +24,7 @@
     }
   },
   "result": {
-    "item": "all_the_elements:copper_tools_pickaxe",
+    "item": "all_the_elements:unknown_element",
     "count": 1
   }
 }
