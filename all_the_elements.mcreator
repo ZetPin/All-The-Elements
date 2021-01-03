@@ -38,15 +38,6 @@
       "registry_name": "nickelingotsmelting"
     },
     {
-      "name": "Forge",
-      "type": "gui",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "forge"
-    },
-    {
       "name": "Forgeburn",
       "type": "procedure",
       "sortid": 6,
@@ -74,6 +65,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "Forgegui",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgegui"
+    },
+    {
+      "name": "Forgeoff",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgeoff"
     }
   ],
   "variable_elements": [],
@@ -82,6 +91,7 @@
     "en_us": {
       "block.all_the_elements.nikel_ore": "Nickel Ore",
       "block.all_the_elements.copper_ore": "Copper Ore",
+      "block.all_the_elements.forgeoff": "Forge",
       "item.all_the_elements.nickel_ingot": "Nickel Ingot"
     }
   },

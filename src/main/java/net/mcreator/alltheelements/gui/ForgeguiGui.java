@@ -42,11 +42,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @AllTheElementsModElements.ModElement.Tag
-public class ForgeGui extends AllTheElementsModElements.ModElement {
+public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public ForgeGui(AllTheElementsModElements instance) {
-		super(instance, 5);
+	public ForgeguiGui(AllTheElementsModElements instance) {
+		super(instance, 7);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -62,7 +62,7 @@ public class ForgeGui extends AllTheElementsModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("forge"));
+		event.getRegistry().register(containerType.setRegistryName("forgegui"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -311,7 +311,7 @@ public class ForgeGui extends AllTheElementsModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("all_the_elements:textures/forge.png");
+		private static final ResourceLocation texture = new ResourceLocation("all_the_elements:textures/forgegui.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
