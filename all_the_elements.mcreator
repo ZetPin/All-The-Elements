@@ -888,6 +888,147 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zinc_ingot_smelting"
+    },
+    {
+      "name": "Zinc_ArmorsArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_armors_armor_body_recipe"
+    },
+    {
+      "name": "Zinc_ArmorsArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_armors_armor_leggings_recipe"
+    },
+    {
+      "name": "Zinc_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_pickaxe"
+    },
+    {
+      "name": "Zinc_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_pickaxe_recipe"
+    },
+    {
+      "name": "Zinc_ArmorsArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_armors_armor_boots_recipe"
+    },
+    {
+      "name": "Zinc_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_hoe_recipe"
+    },
+    {
+      "name": "Zinc_ToolsAxe",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_axe"
+    },
+    {
+      "name": "Zinc_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_axe_recipe"
+    },
+    {
+      "name": "Zinc_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_sword_recipe"
+    },
+    {
+      "name": "Zinc_ArmorsArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_armors_armor_helmet_recipe"
+    },
+    {
+      "name": "Zinc_ArmorsArmor",
+      "type": "armor",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_armors_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Zinc_ToolsSword",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_sword"
+    },
+    {
+      "name": "Zinc_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_shovel_recipe"
+    },
+    {
+      "name": "Zinc_ToolsShovel",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_shovel"
+    },
+    {
+      "name": "Zinc_ToolsHoe",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_tools_hoe"
     }
   ],
   "variable_elements": [],
