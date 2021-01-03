@@ -13,40 +13,40 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
-public class MalachiteSwordItem extends AllTheElementsModElements.ModElement {
-	@ObjectHolder("all_the_elements:malachite_sword")
+public class CopperSwordItem extends AllTheElementsModElements.ModElement {
+	@ObjectHolder("all_the_elements:copper_sword")
 	public static final Item block = null;
-	public MalachiteSwordItem(AllTheElementsModElements instance) {
-		super(instance, 11);
+	public CopperSwordItem(AllTheElementsModElements instance) {
+		super(instance, 21);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2500;
+				return 250;
 			}
 
 			public float getEfficiency() {
-				return 10f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantability() {
-				return 10;
+				return 14;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
-		}.setRegistryName("malachite_sword"));
+		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}.setRegistryName("copper_sword"));
 	}
 }

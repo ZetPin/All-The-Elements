@@ -32,7 +32,7 @@ public class MalachiteAxeItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5f;
+				return 10f;
 			}
 
 			public int getHarvestLevel() {

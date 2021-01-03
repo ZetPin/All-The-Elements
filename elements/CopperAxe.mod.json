@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "malachite_sword",
+    "texture": "copper_axe",
     "customModelName": "Normal",
-    "name": "Malachite Sword",
+    "name": "Copper Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
-    "harvestLevel": 3,
-    "efficiency": 10.0,
-    "attackSpeed": 2.0,
-    "enchantability": 10,
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
     "damageVsEntity": 9.0,
-    "usageCount": 2500,
+    "usageCount": 200,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:MalachiteIngot"
+        "value": "CUSTOM:CopperIngot"
       }
     ],
     "stayInGridWhenCrafting": false,
