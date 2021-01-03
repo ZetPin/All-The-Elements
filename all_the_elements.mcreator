@@ -27,6 +27,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nickel_ingot"
+    },
+    {
+      "name": "Nickelingotsmelting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nickelingotsmelting"
     }
   ],
   "variable_elements": [],
