@@ -85,7 +85,7 @@ public class CopperOreBlock extends AllTheElementsModElements.ModElement {
 			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("copper_ore", "copper_ore", blockAt -> {
 				boolean blockCriteria = false;
 				return blockCriteria;
-			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 50, 50, 80))));
+			}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 50, 50, 80))));
 		}
 	}
 }

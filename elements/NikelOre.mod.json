@@ -97,9 +97,9 @@
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [],
-    "frequencyPerChunks": 5,
+    "frequencyPerChunks": 15,
     "frequencyOnChunk": 6,
-    "minGenerateHeight": 0,
+    "minGenerateHeight": 1,
     "maxGenerateHeight": 35
   }
 }

@@ -78,7 +78,7 @@ public class NikelOreBlock extends AllTheElementsModElements.ModElement {
 			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("nikel_ore", "nikel_ore", blockAt -> {
 				boolean blockCriteria = false;
 				return blockCriteria;
-			}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 0, 0, 35))));
+			}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(15, 1, 1, 35))));
 		}
 	}
 }
