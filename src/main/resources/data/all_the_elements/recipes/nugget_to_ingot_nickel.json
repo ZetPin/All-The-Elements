@@ -1,0 +1,42 @@
+{
+  "group": "all_the_elements",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "1": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "2": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "3": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "4": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "5": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "6": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "7": {
+      "item": "all_the_elements:nickel_nugget"
+    },
+    "8": {
+      "item": "all_the_elements:nickel_nugget"
+    }
+  },
+  "result": {
+    "item": "all_the_elements:nickel_ingot",
+    "count": 1
+  }
+}
