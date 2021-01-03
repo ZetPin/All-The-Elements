@@ -686,15 +686,6 @@
       "registry_name": "block_of_nickel"
     },
     {
-      "name": "Zirconium_ToolsPickaxe",
-      "type": "tool",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zirconium_tools_pickaxe"
-    },
-    {
       "name": "Zirconium_ToolsAxe",
       "type": "tool",
       "sortid": 64,
@@ -702,15 +693,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zirconium_tools_axe"
-    },
-    {
-      "name": "Zirconium_ToolsSword",
-      "type": "tool",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zirconium_tools_sword"
     },
     {
       "name": "Zirconium_ToolsShovel",
@@ -722,13 +704,22 @@
       "registry_name": "zirconium_tools_shovel"
     },
     {
-      "name": "Zirconium_ToolsHoe",
-      "type": "tool",
-      "sortid": 67,
+      "name": "Zirconium_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "zirconium_tools_hoe"
+      "registry_name": "zirconium_tools_axe_recipe"
+    },
+    {
+      "name": "Zirconium_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_tools_shovel_recipe"
     },
     {
       "name": "Zirconium_ToolsPickaxeRecipe",
@@ -740,15 +731,6 @@
       "registry_name": "zirconium_tools_pickaxe_recipe"
     },
     {
-      "name": "Zirconium_ToolsAxeRecipe",
-      "type": "recipe",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zirconium_tools_axe_recipe"
-    },
-    {
       "name": "Zirconium_ToolsSwordRecipe",
       "type": "recipe",
       "sortid": 70,
@@ -758,13 +740,58 @@
       "registry_name": "zirconium_tools_sword_recipe"
     },
     {
-      "name": "Zirconium_ToolsShovelRecipe",
+      "name": "Zirconium_ArmorsArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "zirconium_tools_shovel_recipe"
+      "registry_name": "zirconium_armors_armor_helmet_recipe"
+    },
+    {
+      "name": "Zirconium_ArmorsArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_armors_armor_leggings_recipe"
+    },
+    {
+      "name": "Zirconium_ArmorsArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_armors_armor_boots_recipe"
+    },
+    {
+      "name": "Zirconium_ToolsHoe",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_tools_hoe"
+    },
+    {
+      "name": "Zirconium_ArmorsArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_armors_armor_body_recipe"
+    },
+    {
+      "name": "Zirconium_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_tools_pickaxe"
     },
     {
       "name": "Zirconium_ToolsHoeRecipe",
@@ -791,64 +818,42 @@
       }
     },
     {
-      "name": "Zirconium_ArmorsArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 74,
+      "name": "Zirconium_ToolsSword",
+      "type": "tool",
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "zirconium_armors_armor_helmet_recipe"
+      "registry_name": "zirconium_tools_sword"
     },
     {
-      "name": "Zirconium_ArmorsArmorBodyRecipe",
+      "name": "BlocktoIngotNickel",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "zirconium_armors_armor_body_recipe"
-    },
-    {
-      "name": "Zirconium_ArmorsArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zirconium_armors_armor_leggings_recipe"
-    },
-    {
-      "name": "Zirconium_ArmorsArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zirconium_armors_armor_boots_recipe"
+      "registry_name": "blockto_ingot_nickel"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
       "item.all_the_elements.titanium_armor_helmet": "Titanium Helmet",
+      "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
       "item.all_the_elements.malachite_sword": "Malachite Sword",
       "item.all_the_elements.copper_hoe": "Copper Hoe",
       "item.all_the_elements.titanium_armor_pickaxe": "Titanium_Armor Pickaxe",
       "item.all_the_elements.titanium_ingot": "Titanium Ingot",
-      "item.all_the_elements.zirconium_tools_hoe": "Zirconium_Tools Hoe",
       "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
-      "item.all_the_elements.zirconium_armors_armor_helmet": "Zirconium_Armors Helmet",
-      "block.all_the_elements.malachite_ore": "Malachite Ore",
-      "block.all_the_elements.forgeoff": "Forge",
       "block.all_the_elements.copper_ore": "Copper Ore",
+      "block.all_the_elements.forgeoff": "Forge",
+      "block.all_the_elements.malachite_ore": "Malachite Ore",
       "item.all_the_elements.zirconium_ingot": "Zirconium Ingot",
       "item.all_the_elements.titanium_armor_hoe": "Titanium_Armor Hoe",
-      "item.all_the_elements.zirconium_tools_shovel": "Zirconium_Tools Shovel",
       "item.all_the_elements.petrol_bucket": "Petrol Bucket",
       "item.all_the_elements.malachite_hoe": "Malachite Hoe",
-      "item.all_the_elements.zirconium_armors_armor_chestplate": "Zirconium_Armors Chestplate",
       "item.all_the_elements.copper_pickaxe": "Copper Pickaxe",
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.malachite_shovel": "Malachite Shovel",
@@ -859,22 +864,18 @@
       "item.all_the_elements.copper_armor_chestplate": "Copper Chestplate",
       "block.all_the_elements.block_of_nickel": "Nickel Block",
       "item.all_the_elements.copper_shovel": "Copper Shovel",
-      "item.all_the_elements.zirconium_armors_armor_leggings": "Zirconium_Armors Leggings",
       "item.all_the_elements.cobalt_axe": "Cobalt Axe",
       "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe",
       "item.all_the_elements.cobalt_shovel": "Cobalt Shovel",
       "item.all_the_elements.titanium_armor_shovel": "Titanium_Armor Shovel",
       "item.all_the_elements.copper_sword": "Copper Sword",
       "block.all_the_elements.nikel_ore": "Nickel Ore",
-      "item.all_the_elements.zirconium_armors_armor_boots": "Zirconium_Armors Boots",
       "block.all_the_elements.titanium_ore": "Titanium Ore",
       "item.all_the_elements.nickel_ingot": "Nickel Ingot",
-      "item.all_the_elements.zirconium_tools_sword": "Zirconium_Tools Sword",
       "item.all_the_elements.copper_axe": "Copper Axe",
       "item.all_the_elements.titanium_armor_leggings": "Titanium Leggings",
       "item.all_the_elements.cobalt_armor_helmet": "Cobalt Helmet",
       "item.all_the_elements.copper_armor_helmet": "Copper Helmet",
-      "item.all_the_elements.zirconium_tools_axe": "Zirconium_Tools Axe",
       "item.all_the_elements.cobalt_sword": "Cobalt Sword",
       "item.all_the_elements.titanium_armor_axe": "Titanium_Armor Axe",
       "item.all_the_elements.copper_armor_leggings": "Copper Leggings",
@@ -886,8 +887,7 @@
       "block.all_the_elements.zirconium_ore": "Zirconium Ore",
       "item.all_the_elements.copper_armor_boots": "Copper Boots",
       "item.all_the_elements.titanium_armor_chestplate": "Titanium Chestplate",
-      "item.all_the_elements.titanium_armor_boots": "Titanium Boots",
-      "item.all_the_elements.zirconium_tools_pickaxe": "Zirconium_Tools Pickaxe"
+      "item.all_the_elements.titanium_armor_boots": "Titanium Boots"
     }
   },
   "workspaceSettings": {
