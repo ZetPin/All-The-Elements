@@ -369,6 +369,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cobalt_hoe_recipe"
+    },
+    {
+      "name": "Petrol",
+      "type": "fluid",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrol"
     }
   ],
   "variable_elements": [],
@@ -387,11 +396,13 @@
       "block.all_the_elements.malachite_ore": "Malachite Ore",
       "item.all_the_elements.nickel_ingot": "Nickel Ingot",
       "item.all_the_elements.copper_axe": "Copper Axe",
+      "item.all_the_elements.petrol_bucket": "Petrol Bucket",
       "item.all_the_elements.malachite_hoe": "Malachite Hoe",
       "item.all_the_elements.cobalt_sword": "Cobalt Sword",
       "item.all_the_elements.copper_pickaxe": "Copper Pickaxe",
       "item.all_the_elements.malachite_shovel": "Malachite Shovel",
       "item.all_the_elements.cobalt_hoe": "Cobalt Hoe",
+      "fluid.petrol": "Petrol",
       "item.all_the_elements.malachite_axe": "Malachite Axe",
       "item.all_the_elements.copper_ingot": "Copper Ingot",
       "block.all_the_elements.cobalt_ore": "Cobalt Ore",
