@@ -26,7 +26,7 @@ public class CoppernuggetItem extends AllTheElementsModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AllTheElementsItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("coppernugget");
+			setRegistryName("copper_nugget");
 		}
 
 		@Override
