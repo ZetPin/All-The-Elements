@@ -1,0 +1,16 @@
+{
+  "group": "all_the_elements",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "all_the_elements:nickel_ingot"
+    }
+  },
+  "result": {
+    "item": "all_the_elements:nickel_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "all_the_elements:items/copper_nugget"
+  },
+    "display": {
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2.5, 0],
+            "scale":[ 0.2, 0.2, 0.2 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.2, 0.2, 0.2 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 2.5, 2 ],
+            "scale": [ 0.2, 0.2, 0.2]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 2.5, 2 ],
+            "scale": [ 0.2, 0.2, 0.2 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 2.5, 2 ],
+            "scale": [ 0.2, 0.2, 0.2 ]
+        }
+    }
+}

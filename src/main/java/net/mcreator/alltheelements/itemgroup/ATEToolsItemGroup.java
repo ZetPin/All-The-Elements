@@ -7,22 +7,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.alltheelements.block.NikelOreBlock;
+import net.mcreator.alltheelements.item.MalachitePickaxeItem;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
-public class AllTheElementsItemGroup extends AllTheElementsModElements.ModElement {
-	public AllTheElementsItemGroup(AllTheElementsModElements instance) {
-		super(instance, 80);
+public class ATEToolsItemGroup extends AllTheElementsModElements.ModElement {
+	public ATEToolsItemGroup(AllTheElementsModElements instance) {
+		super(instance, 115);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("taball_the_elements") {
+		tab = new ItemGroup("tabate_tools") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(NikelOreBlock.block, (int) (1));
+				return new ItemStack(MalachitePickaxeItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

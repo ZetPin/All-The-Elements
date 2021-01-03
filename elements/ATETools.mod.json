@@ -2,9 +2,9 @@
   "_fv": 13,
   "_type": "tab",
   "definition": {
-    "name": "A.T.E Ores",
+    "name": "A.T.E Tools",
     "icon": {
-      "value": "CUSTOM:NikelOre"
+      "value": "CUSTOM:MalachitePickaxe"
     },
     "showSearch": false
   }

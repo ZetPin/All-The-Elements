@@ -7,22 +7,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.alltheelements.block.NikelOreBlock;
+import net.mcreator.alltheelements.item.MalachiteArmorItem;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
-public class AllTheElementsItemGroup extends AllTheElementsModElements.ModElement {
-	public AllTheElementsItemGroup(AllTheElementsModElements instance) {
-		super(instance, 80);
+public class ATEArmorItemGroup extends AllTheElementsModElements.ModElement {
+	public ATEArmorItemGroup(AllTheElementsModElements instance) {
+		super(instance, 116);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("taball_the_elements") {
+		tab = new ItemGroup("tabate_armor") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(NikelOreBlock.block, (int) (1));
+				return new ItemStack(MalachiteArmorItem.helmet, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)
