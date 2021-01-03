@@ -119,17 +119,17 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 53) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 59) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 16) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 23) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 34) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 41) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 106, 34) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 107, 41) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -344,6 +344,8 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
+			this.font.drawString("Inventory", 122, 66, -12829636);
+			this.font.drawString("Forge", 4, 4, -12829636);
 		}
 
 		@Override
