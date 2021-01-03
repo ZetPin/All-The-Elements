@@ -684,22 +684,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "block_of_nickel"
+    },
+    {
+      "name": "BlocktoIngotNickel",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blockto_ingot_nickel"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.all_the_elements.titanium_armor_helmet": "Titanium Helmet",
       "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
+      "item.all_the_elements.titanium_armor_helmet": "Titanium Helmet",
       "item.all_the_elements.malachite_sword": "Malachite Sword",
       "item.all_the_elements.copper_hoe": "Copper Hoe",
       "item.all_the_elements.titanium_armor_pickaxe": "Titanium_Armor Pickaxe",
       "item.all_the_elements.titanium_ingot": "Titanium Ingot",
       "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
-      "block.all_the_elements.copper_ore": "Copper Ore",
-      "block.all_the_elements.forgeoff": "Forge",
       "block.all_the_elements.malachite_ore": "Malachite Ore",
+      "block.all_the_elements.forgeoff": "Forge",
+      "block.all_the_elements.copper_ore": "Copper Ore",
+      "item.all_the_elements.zirconium_ingot": "Zirconium Ingot",
       "item.all_the_elements.titanium_armor_hoe": "Titanium_Armor Hoe",
       "item.all_the_elements.petrol_bucket": "Petrol Bucket",
       "item.all_the_elements.malachite_hoe": "Malachite Hoe",
@@ -711,6 +721,7 @@
       "block.all_the_elements.cobalt_ore": "Cobalt Ore",
       "item.all_the_elements.cobalt_armor_leggings": "Cobalt Leggings",
       "item.all_the_elements.copper_armor_chestplate": "Copper Chestplate",
+      "block.all_the_elements.block_of_nickel": "Nickel Block",
       "item.all_the_elements.copper_shovel": "Copper Shovel",
       "item.all_the_elements.cobalt_axe": "Cobalt Axe",
       "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe",
@@ -732,6 +743,7 @@
       "fluid.petrol": "Petrol",
       "item.all_the_elements.malachite_axe": "Malachite Axe",
       "item.all_the_elements.malachite_ingot": "Malachite Ingot",
+      "block.all_the_elements.zirconium_ore": "Zirconium Ore",
       "item.all_the_elements.copper_armor_boots": "Copper Boots",
       "item.all_the_elements.titanium_armor_chestplate": "Titanium Chestplate",
       "item.all_the_elements.titanium_armor_boots": "Titanium Boots"
