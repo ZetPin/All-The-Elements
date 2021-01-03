@@ -50,7 +50,7 @@ public class CobaltOreBlock extends AllTheElementsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("cobalt_ore");
 		}
@@ -65,7 +65,7 @@ public class CobaltOreBlock extends AllTheElementsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(CobaltOreBlock.block, (int) (1)));
 		}
 	}
 	@Override
@@ -87,7 +87,7 @@ public class CobaltOreBlock extends AllTheElementsModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 16)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 1, 1, 35))));
+			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(5, 1, 1, 35))));
 		}
 	}
 }

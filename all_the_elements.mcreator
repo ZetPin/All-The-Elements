@@ -270,30 +270,135 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cobalt_ore"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_ingot"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_pickaxe"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_sword"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shovel"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_pickaxe_recipe"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_axe_recipe"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_sword_recipe"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_shovel_recipe"
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobalt_hoe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
+      "item.all_the_elements.cobalt_shovel": "Cobalt Shovel",
       "item.all_the_elements.malachite_sword": "Malachite Sword",
       "item.all_the_elements.copper_hoe": "Copper Hoe",
-      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
+      "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
       "item.all_the_elements.copper_sword": "Copper Sword",
       "block.all_the_elements.copper_ore": "Copper Ore",
       "block.all_the_elements.nikel_ore": "Nickel Ore",
       "block.all_the_elements.forgeoff": "Forge",
       "block.all_the_elements.malachite_ore": "Malachite Ore",
+      "item.all_the_elements.nickel_ingot": "Nickel Ingot",
+      "item.all_the_elements.copper_axe": "Copper Axe",
+      "item.all_the_elements.malachite_hoe": "Malachite Hoe",
+      "item.all_the_elements.cobalt_sword": "Cobalt Sword",
+      "item.all_the_elements.copper_pickaxe": "Copper Pickaxe",
+      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
+      "item.all_the_elements.cobalt_hoe": "Cobalt Hoe",
       "item.all_the_elements.malachite_axe": "Malachite Axe",
       "item.all_the_elements.copper_ingot": "Copper Ingot",
       "block.all_the_elements.cobalt_ore": "Cobalt Ore",
-      "item.all_the_elements.nickel_ingot": "Nickel Ingot",
       "item.all_the_elements.malachite_ingot": "Malachite Ingot",
-      "item.all_the_elements.copper_axe": "Copper Axe",
       "item.all_the_elements.copper_shovel": "Copper Shovel",
-      "item.all_the_elements.malachite_hoe": "Malachite Hoe",
-      "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe",
-      "item.all_the_elements.copper_pickaxe": "Copper Pickaxe"
+      "item.all_the_elements.cobalt_axe": "Cobalt Axe",
+      "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe"
     }
   },
   "workspaceSettings": {

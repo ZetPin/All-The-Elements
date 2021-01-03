@@ -13,30 +13,30 @@ import net.minecraft.item.HoeItem;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
-public class MalachiteHoeItem extends AllTheElementsModElements.ModElement {
-	@ObjectHolder("all_the_elements:malachite_hoe")
+public class CobaltHoeItem extends AllTheElementsModElements.ModElement {
+	@ObjectHolder("all_the_elements:cobalt_hoe")
 	public static final Item block = null;
-	public MalachiteHoeItem(AllTheElementsModElements instance) {
-		super(instance, 13);
+	public CobaltHoeItem(AllTheElementsModElements instance) {
+		super(instance, 35);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2000;
+				return 3000;
 			}
 
 			public float getEfficiency() {
-				return 10f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantability() {
@@ -44,9 +44,9 @@ public class MalachiteHoeItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(CobaltIngotItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("malachite_hoe"));
+		}, -2f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("cobalt_hoe"));
 	}
 }

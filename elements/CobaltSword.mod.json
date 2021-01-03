@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "malachite_pickaxe",
+    "texture": "cobalt_sword",
     "customModelName": "Normal",
-    "name": "Malachite Pickaxe",
+    "name": "Cobalt Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 4,
-    "efficiency": 10.0,
-    "attackSpeed": 1.0,
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 2.5,
     "enchantability": 10,
-    "damageVsEntity": 6.0,
-    "usageCount": 2000,
+    "damageVsEntity": 15.0,
+    "usageCount": 3250,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:MalachiteIngot"
+        "value": "CUSTOM:CobaltIngot"
       }
     ],
     "stayInGridWhenCrafting": false,

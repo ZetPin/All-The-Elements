@@ -1,0 +1,24 @@
+{
+  "group": "all_the_elements",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "all_the_elements:cobalt_ingot"
+    },
+    "1": {
+      "item": "all_the_elements:cobalt_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "all_the_elements:cobalt_sword",
+    "count": 1
+  }
+}

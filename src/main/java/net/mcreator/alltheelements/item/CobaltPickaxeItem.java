@@ -4,39 +4,39 @@ package net.mcreator.alltheelements.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.HoeItem;
 
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
-public class MalachiteHoeItem extends AllTheElementsModElements.ModElement {
-	@ObjectHolder("all_the_elements:malachite_hoe")
+public class CobaltPickaxeItem extends AllTheElementsModElements.ModElement {
+	@ObjectHolder("all_the_elements:cobalt_pickaxe")
 	public static final Item block = null;
-	public MalachiteHoeItem(AllTheElementsModElements instance) {
-		super(instance, 13);
+	public CobaltPickaxeItem(AllTheElementsModElements instance) {
+		super(instance, 31);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new HoeItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2000;
+				return 3000;
 			}
 
 			public float getEfficiency() {
-				return 10f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 9f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantability() {
@@ -44,9 +44,9 @@ public class MalachiteHoeItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(MalachiteIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(CobaltIngotItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-		}.setRegistryName("malachite_hoe"));
+		}, 1, -2f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("cobalt_pickaxe"));
 	}
 }
