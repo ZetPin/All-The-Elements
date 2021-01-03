@@ -8,7 +8,7 @@
     "name": "Nickel Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AllTheElements"
     },
     "stackSize": 64,
     "enchantability": 0,
