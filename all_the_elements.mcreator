@@ -650,30 +650,6 @@
       "registry_name": "titanium_ingot_smelting"
     },
     {
-      "name": "TitaniumArmor",
-      "type": "armor",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "titanium_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "TitaniumArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "titanium_armor_helmet_recipe"
-    },
-    {
       "name": "TitaniumArmorBodyRecipe",
       "type": "recipe",
       "sortid": 62,
@@ -699,6 +675,30 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_armor_boots_recipe"
+    },
+    {
+      "name": "TitaniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_armor_helmet_recipe"
+    },
+    {
+      "name": "TitaniumArmor",
+      "type": "armor",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
