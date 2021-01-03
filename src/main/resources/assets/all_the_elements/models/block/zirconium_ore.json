@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "all_the_elements:blocks/zirconium_ore",
+    "up": "all_the_elements:blocks/zirconium_ore",
+    "north": "all_the_elements:blocks/zirconium_ore",
+    "east": "all_the_elements:blocks/zirconium_ore",
+    "south": "all_the_elements:blocks/stone_template",
+    "west": "all_the_elements:blocks/zirconium_ore",
+    "particle": "all_the_elements:blocks/zirconium_ore"
+  }
+}

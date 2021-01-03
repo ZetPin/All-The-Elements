@@ -648,6 +648,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_ingot_smelting"
+    },
+    {
+      "name": "ZirconiumOre",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_ore"
+    },
+    {
+      "name": "ZirconiumIngot",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_ingot"
+    },
+    {
+      "name": "ZirconiumIngotSmelting",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zirconium_ingot_smelting"
     }
   ],
   "variable_elements": [],
@@ -668,6 +695,7 @@
       "block.all_the_elements.forgeoff": "Forge",
       "block.all_the_elements.copper_ore": "Copper Ore",
       "block.all_the_elements.nikel_ore": "Nickel Ore",
+      "item.all_the_elements.zirconium_ingot": "Zirconium Ingot",
       "block.all_the_elements.titanium_ore": "Titanium Ore",
       "item.all_the_elements.nickel_ingot": "Nickel Ingot",
       "item.all_the_elements.titanium_armor_hoe": "Titanium_Armor Hoe",
@@ -692,6 +720,7 @@
       "block.all_the_elements.cobalt_ore": "Cobalt Ore",
       "item.all_the_elements.cobalt_armor_leggings": "Cobalt Leggings",
       "item.all_the_elements.malachite_ingot": "Malachite Ingot",
+      "block.all_the_elements.zirconium_ore": "Zirconium Ore",
       "item.all_the_elements.copper_armor_chestplate": "Copper Chestplate",
       "item.all_the_elements.copper_armor_boots": "Copper Boots",
       "item.all_the_elements.titanium_armor_chestplate": "Titanium Chestplate",
