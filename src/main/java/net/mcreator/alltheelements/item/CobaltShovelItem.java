@@ -32,7 +32,7 @@ public class CobaltShovelItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
