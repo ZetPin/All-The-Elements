@@ -852,14 +852,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nugget_to_ingot_nickel"
+    },
+    {
+      "name": "AllTheElements",
+      "type": "tab",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "all_the_elements"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
       "item.all_the_elements.titanium_armor_helmet": "Titanium Helmet",
+      "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
       "item.all_the_elements.malachite_sword": "Malachite Sword",
       "item.all_the_elements.copper_hoe": "Copper Hoe",
       "item.all_the_elements.titanium_armor_pickaxe": "Titanium_Armor Pickaxe",
@@ -867,9 +876,9 @@
       "item.all_the_elements.zirconium_tools_hoe": "Zirconium_Tools Hoe",
       "item.all_the_elements.zirconium_armors_armor_helmet": "Zirconium_Armors Helmet",
       "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
-      "block.all_the_elements.malachite_ore": "Malachite Ore",
-      "block.all_the_elements.forgeoff": "Forge",
       "block.all_the_elements.copper_ore": "Copper Ore",
+      "block.all_the_elements.forgeoff": "Forge",
+      "block.all_the_elements.malachite_ore": "Malachite Ore",
       "item.all_the_elements.zirconium_ingot": "Zirconium Ingot",
       "item.all_the_elements.titanium_armor_hoe": "Titanium_Armor Hoe",
       "item.all_the_elements.zirconium_tools_shovel": "Zirconium_Tools Shovel",
@@ -884,6 +893,7 @@
       "block.all_the_elements.cobalt_ore": "Cobalt Ore",
       "item.all_the_elements.cobalt_armor_leggings": "Cobalt Leggings",
       "item.all_the_elements.copper_armor_chestplate": "Copper Chestplate",
+      "itemGroup.taball_the_elements": "All The Elements",
       "block.all_the_elements.block_of_nickel": "Nickel Block",
       "item.all_the_elements.copper_shovel": "Copper Shovel",
       "item.all_the_elements.zirconium_armors_armor_leggings": "Zirconium_Armors Leggings",
