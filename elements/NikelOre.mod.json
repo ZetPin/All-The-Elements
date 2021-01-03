@@ -37,7 +37,7 @@
     "customDrop": {
       "value": "CUSTOM:NikelOre"
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
@@ -67,7 +67,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

@@ -49,7 +49,7 @@ public class NikelOreBlock extends AllTheElementsModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("nikel_ore");
 		}
@@ -59,7 +59,7 @@ public class NikelOreBlock extends AllTheElementsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(NikelOreBlock.block, (int) (0)));
+			return Collections.singletonList(new ItemStack(NikelOreBlock.block, (int) (1)));
 		}
 	}
 	@Override
