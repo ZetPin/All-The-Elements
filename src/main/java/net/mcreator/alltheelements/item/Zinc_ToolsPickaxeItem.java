@@ -1,12 +1,21 @@
 
 package net.mcreator.alltheelements.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.alltheelements.AllTheElementsModElements;
+
 @AllTheElementsModElements.ModElement.Tag
 public class Zinc_ToolsPickaxeItem extends AllTheElementsModElements.ModElement {
-
 	@ObjectHolder("all_the_elements:zinc_tools_pickaxe")
 	public static final Item block = null;
-
 	public Zinc_ToolsPickaxeItem(AllTheElementsModElements instance) {
 		super(instance, 84);
 	}
@@ -38,8 +47,6 @@ public class Zinc_ToolsPickaxeItem extends AllTheElementsModElements.ModElement 
 				return Ingredient.fromStacks(new ItemStack(ZincIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("zinc_tools_pickaxe"));
 	}
-
 }
