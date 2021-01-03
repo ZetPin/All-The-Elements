@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "all_the_elements:blocks/zinc_ore",
+    "up": "all_the_elements:blocks/zinc_ore",
+    "north": "all_the_elements:blocks/zinc_ore",
+    "east": "all_the_elements:blocks/zinc_ore",
+    "south": "all_the_elements:blocks/zinc_ore",
+    "west": "all_the_elements:blocks/zinc_ore",
+    "particle": "all_the_elements:blocks/zinc_ore"
+  }
+}

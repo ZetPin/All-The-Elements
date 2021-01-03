@@ -1,6 +1,6 @@
 {
-  "item.all_the_elements.titanium_armor_helmet": "Titanium Helmet",
   "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
+  "item.all_the_elements.titanium_armor_helmet": "Titanium Helmet",
   "item.all_the_elements.malachite_sword": "Malachite Sword",
   "item.all_the_elements.copper_hoe": "Copper Hoe",
   "item.all_the_elements.titanium_armor_pickaxe": "Titanium_Armor Pickaxe",
@@ -8,10 +8,11 @@
   "item.all_the_elements.zirconium_tools_hoe": "Zirconium_Tools Hoe",
   "item.all_the_elements.zirconium_armors_armor_helmet": "Zirconium_Armors Helmet",
   "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
-  "block.all_the_elements.copper_ore": "Copper Ore",
-  "block.all_the_elements.forgeoff": "Forge",
   "block.all_the_elements.malachite_ore": "Malachite Ore",
+  "block.all_the_elements.forgeoff": "Forge",
+  "block.all_the_elements.copper_ore": "Copper Ore",
   "item.all_the_elements.zirconium_ingot": "Zirconium Ingot",
+  "block.all_the_elements.zinc_ore": "Zinc Ore",
   "item.all_the_elements.titanium_armor_hoe": "Titanium_Armor Hoe",
   "item.all_the_elements.zirconium_tools_shovel": "Zirconium_Tools Shovel",
   "item.all_the_elements.petrol_bucket": "Petrol Bucket",
@@ -57,5 +58,6 @@
   "item.all_the_elements.copper_armor_boots": "Copper Boots",
   "item.all_the_elements.titanium_armor_chestplate": "Titanium Chestplate",
   "item.all_the_elements.titanium_armor_boots": "Titanium Boots",
+  "item.all_the_elements.zinc_ingot": "Zinc Ingot",
   "item.all_the_elements.zirconium_tools_pickaxe": "Zirconium_Tools Pickaxe"
 }
