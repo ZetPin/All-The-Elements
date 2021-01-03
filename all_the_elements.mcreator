@@ -38,166 +38,49 @@
       "registry_name": "nickelingotsmelting"
     },
     {
-      "name": "Copper_ToolsPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 23,
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_tools_pickaxe_recipe"
+      "registry_name": "copper_ingot"
     },
     {
-      "name": "MalachiteArmorHelmetRecipe",
+      "name": "CopperIngotSmelting",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "malachite_armor_helmet_recipe"
+      "registry_name": "copper_ingot_smelting"
     },
     {
-      "name": "Copper_ToolsSwordRecipe",
-      "type": "recipe",
-      "sortid": 25,
+      "name": "MalachiteIngot",
+      "type": "item",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "copper_tools_sword_recipe"
+      "registry_name": "malachite_ingot"
     },
     {
-      "name": "Malachite_ToolsShovelRecipe",
-      "type": "recipe",
-      "sortid": 43,
+      "name": "MalachiteOre",
+      "type": "block",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "malachite_tools_shovel_recipe"
+      "registry_name": "malachite_ore"
     },
     {
-      "name": "MalachiteArmorBootsRecipe",
+      "name": "MalachiteIngotSmelting",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "malachite_armor_boots_recipe"
-    },
-    {
-      "name": "Copper_ArmorArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_armor_armor_body_recipe"
-    },
-    {
-      "name": "Copper_ArmorArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_armor_armor_boots_recipe"
-    },
-    {
-      "name": "Copper_ToolsHoeRecipe",
-      "type": "recipe",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_tools_hoe_recipe"
-    },
-    {
-      "name": "Copper_ArmorArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_armor_armor_helmet_recipe"
-    },
-    {
-      "name": "MalachiteArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "malachite_armor_leggings_recipe"
-    },
-    {
-      "name": "Copper_ToolsShovelRecipe",
-      "type": "recipe",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_tools_shovel_recipe"
-    },
-    {
-      "name": "Malachite_ToolsPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "malachite_tools_pickaxe_recipe"
-    },
-    {
-      "name": "Malachite_ToolsHoeRecipe",
-      "type": "recipe",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "malachite_tools_hoe_recipe"
-    },
-    {
-      "name": "Copper_ArmorArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_armor_armor_leggings_recipe"
-    },
-    {
-      "name": "Malachite_ToolsAxeRecipe",
-      "type": "recipe",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "malachite_tools_axe_recipe"
-    },
-    {
-      "name": "MalachiteArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "malachite_armor_body_recipe"
-    },
-    {
-      "name": "Malachite_ToolsSwordRecipe",
-      "type": "recipe",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "malachite_tools_sword_recipe"
-    },
-    {
-      "name": "Copper_ToolsAxeRecipe",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_tools_axe_recipe"
+      "registry_name": "malachite_ingot_smelting"
     }
   ],
   "variable_elements": [],
@@ -207,7 +90,10 @@
       "block.all_the_elements.copper_ore": "Copper Ore",
       "block.all_the_elements.nikel_ore": "Nickel Ore",
       "block.all_the_elements.forgeoff": "Forge",
-      "item.all_the_elements.nickel_ingot": "Nickel Ingot"
+      "block.all_the_elements.malachite_ore": "Malachite Ore",
+      "item.all_the_elements.copper_ingot": "Copper Ingot",
+      "item.all_the_elements.nickel_ingot": "Nickel Ingot",
+      "item.all_the_elements.malachite_ingot": "Malachite Ingot"
     }
   },
   "workspaceSettings": {
