@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "zirconium_armors_head",
+    "textureHelmet": "nickel_head",
     "enableBody": true,
-    "textureBody": "zirconium_armors_body",
+    "textureBody": "nickel_body",
     "enableLeggings": true,
-    "textureLeggings": "zirconium_armors_leggings",
+    "textureLeggings": "nickel_leggings",
     "enableBoots": true,
-    "textureBoots": "zirconium_armors_boots",
+    "textureBoots": "nickel_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "zirconium_armors",
-    "helmetName": "Zirconium_Armors Helmet",
-    "bodyName": "Zirconium_Armors Chestplate",
-    "leggingsName": "Zirconium_Armors Leggings",
-    "bootsName": "Zirconium_Armors Boots",
+    "armorTextureFile": "nickel",
+    "helmetName": "Nickel Helmet",
+    "bodyName": "Nickel Chestplate",
+    "leggingsName": "Nickel Leggings",
+    "bootsName": "Nickel Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,19 +38,19 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 45,
-    "damageValueHelmet": 7,
-    "damageValueBody": 12,
-    "damageValueLeggings": 10,
-    "damageValueBoots": 7,
-    "enchantability": 10,
-    "toughness": 3.0,
+    "maxDamage": 20,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
     "repairItems": [
       {
-        "value": "CUSTOM:ZirconiumIngot"
+        "value": "CUSTOM:NickelIngot"
       }
     ]
   }

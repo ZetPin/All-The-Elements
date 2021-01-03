@@ -40,7 +40,7 @@ public class MalachiteArmorItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{5, 8, 10, 5}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {

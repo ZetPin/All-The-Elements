@@ -19,28 +19,28 @@ import net.minecraft.entity.Entity;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
-public class Zinc_ArmorsArmorItem extends AllTheElementsModElements.ModElement {
-	@ObjectHolder("all_the_elements:zinc_armors_armor_helmet")
+public class TitaniumArmorItem extends AllTheElementsModElements.ModElement {
+	@ObjectHolder("all_the_elements:titanium_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("all_the_elements:zinc_armors_armor_chestplate")
+	@ObjectHolder("all_the_elements:titanium_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("all_the_elements:zinc_armors_armor_leggings")
+	@ObjectHolder("all_the_elements:titanium_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("all_the_elements:zinc_armors_armor_boots")
+	@ObjectHolder("all_the_elements:titanium_armor_boots")
 	public static final Item boots = null;
-	public Zinc_ArmorsArmorItem(AllTheElementsModElements instance) {
-		super(instance, 94);
+	public TitaniumArmorItem(AllTheElementsModElements instance) {
+		super(instance, 99);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 33;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{3, 6, 8, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -52,41 +52,41 @@ public class Zinc_ArmorsArmorItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(ZincIngotItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(TitaniumIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			public String getName() {
-				return "zinc_armors_armor";
+				return "titanium_armor";
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "all_the_elements:textures/models/armor/zinc_armors_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "all_the_elements:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armors_armor_helmet"));
+		}.setRegistryName("titanium_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "all_the_elements:textures/models/armor/zinc_armors_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "all_the_elements:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armors_armor_chestplate"));
+		}.setRegistryName("titanium_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "all_the_elements:textures/models/armor/zinc_armors_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "all_the_elements:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armors_armor_leggings"));
+		}.setRegistryName("titanium_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "all_the_elements:textures/models/armor/zinc_armors_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "all_the_elements:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armors_armor_boots"));
+		}.setRegistryName("titanium_armor_boots"));
 	}
 }

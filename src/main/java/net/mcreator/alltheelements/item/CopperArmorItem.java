@@ -40,7 +40,7 @@ public class CopperArmorItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{2, 5, 6, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {

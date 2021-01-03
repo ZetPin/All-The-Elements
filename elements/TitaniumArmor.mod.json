@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "zirconium_armors_head",
+    "textureHelmet": "titanium_head",
     "enableBody": true,
-    "textureBody": "zirconium_armors_body",
+    "textureBody": "titanium_body",
     "enableLeggings": true,
-    "textureLeggings": "zirconium_armors_leggings",
+    "textureLeggings": "titanium_leggings",
     "enableBoots": true,
-    "textureBoots": "zirconium_armors_boots",
+    "textureBoots": "titanium_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "zirconium_armors",
-    "helmetName": "Zirconium_Armors Helmet",
-    "bodyName": "Zirconium_Armors Chestplate",
-    "leggingsName": "Zirconium_Armors Leggings",
-    "bootsName": "Zirconium_Armors Boots",
+    "armorTextureFile": "titanium",
+    "helmetName": "Titanium Helmet",
+    "bodyName": "Titanium Chestplate",
+    "leggingsName": "Titanium Leggings",
+    "bootsName": "Titanium Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,19 +38,19 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 45,
-    "damageValueHelmet": 7,
-    "damageValueBody": 12,
-    "damageValueLeggings": 10,
-    "damageValueBoots": 7,
-    "enchantability": 10,
-    "toughness": 3.0,
+    "maxDamage": 33,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 2.0,
     "equipSound": {
       "value": ""
     },
     "repairItems": [
       {
-        "value": "CUSTOM:ZirconiumIngot"
+        "value": "CUSTOM:TitaniumIngot"
       }
     ]
   }

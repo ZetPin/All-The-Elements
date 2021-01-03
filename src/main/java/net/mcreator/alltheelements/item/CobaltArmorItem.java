@@ -40,7 +40,7 @@ public class CobaltArmorItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{11, 12, 17, 15}[slot.getIndex()];
+				return new int[]{7, 8, 12, 7}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
