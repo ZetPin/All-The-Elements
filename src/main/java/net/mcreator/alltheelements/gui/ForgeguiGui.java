@@ -34,8 +34,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.alltheelements.procedures.ForgeonproceduireProcedure;
-import net.mcreator.alltheelements.procedures.ForgeburnProcedure;
+import net.mcreator.alltheelements.procedures.ForgetickProcedure;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 import net.mcreator.alltheelements.AllTheElementsMod;
 
@@ -83,7 +82,7 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(4);
+			this.internal = new ItemStackHandler(3);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -127,6 +126,19 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 					super.onSlotChanged();
 					GuiContainerMod.this.slotChanged(0, 0, 0);
 				}
+
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(0, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(0, 2, b.getCount() - a.getCount());
+				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 23) {
 				@Override
@@ -134,8 +146,21 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 					super.onSlotChanged();
 					GuiContainerMod.this.slotChanged(1, 0, 0);
 				}
+
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(1, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(1, 2, b.getCount() - a.getCount());
+				}
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 41) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 69, 41) {
 				@Override
 				public void onSlotChanged() {
 					super.onSlotChanged();
@@ -143,15 +168,9 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 				}
 
 				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 107, 41) {
-				@Override
-				public void onSlotChanged() {
-					super.onSlotChanged();
-					GuiContainerMod.this.slotChanged(3, 0, 0);
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(2, 2, b.getCount() - a.getCount());
 				}
 
 				@Override
@@ -184,18 +203,18 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 4) {
-					if (!this.mergeItemStack(itemstack1, 4, this.inventorySlots.size(), true)) {
+				if (index < 3) {
+					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 4, false)) {
-					if (index < 4 + 27) {
-						if (!this.mergeItemStack(itemstack1, 4 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
+					if (index < 3 + 27) {
+						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 4, 4 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -351,7 +370,7 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("all_the_elements:textures/flame_on.png"));
-			this.blit(this.guiLeft + 25, this.guiTop + 40, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 25, this.guiTop + 39, 0, 0, 16, 16, 16, 16);
 		}
 
 		@Override
@@ -370,8 +389,16 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Inventory", 122, 66, -12829636);
+			this.font.drawString("Inventory", 44, 66, -12829636);
 			this.font.drawString("Forge", 4, 4, -12829636);
+			this.font.drawString("Fuel:" + ((int) new Object() {
+				public double getValue(BlockPos pos, String tag) {
+					TileEntity tileEntity = world.getTileEntity(pos);
+					if (tileEntity != null)
+						return tileEntity.getTileData().getDouble(tag);
+					return 0;
+				}
+			}.getValue(new BlockPos((int) x, (int) y, (int) z), "FuelRemaining")) + "%", 130, 5, -12829636);
 		}
 
 		@Override
@@ -487,25 +514,80 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ForgeburnProcedure.executeProcedure($_dependencies);
+				ForgetickProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 0 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgetickProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 0 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgetickProcedure.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 1 && changeType == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				ForgeonproceduireProcedure.executeProcedure($_dependencies);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgetickProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 1 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgetickProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 1 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgetickProcedure.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 2 && changeType == 0) {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				ForgeonproceduireProcedure.executeProcedure($_dependencies);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgetickProcedure.executeProcedure($_dependencies);
 			}
 		}
-		if (slotID == 3 && changeType == 0) {
+		if (slotID == 2 && changeType == 2) {
+			int amount = meta;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				ForgeonproceduireProcedure.executeProcedure($_dependencies);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgetickProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

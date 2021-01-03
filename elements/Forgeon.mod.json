@@ -31,11 +31,11 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "REDSTONE"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Forgeoff"
+      "value": "CUSTOM:Forgeon"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -47,7 +47,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -60,7 +60,7 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "BLOCK",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "STONE"

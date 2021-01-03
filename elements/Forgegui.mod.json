@@ -20,7 +20,13 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "Forgeburn"
+            "name": "Forgetick"
+          },
+          "onTakenFromSlot": {
+            "name": "Forgetick"
+          },
+          "onStackTransfer": {
+            "name": "Forgetick"
           },
           "name": "Slot #0",
           "x": 150,
@@ -37,7 +43,13 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "Forgeonproceduire"
+            "name": "Forgetick"
+          },
+          "onTakenFromSlot": {
+            "name": "Forgetick"
+          },
+          "onStackTransfer": {
+            "name": "Forgetick"
           },
           "name": "Slot #1",
           "x": 150,
@@ -51,24 +63,13 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "onSlotChanged": {
-            "name": "Forgeonproceduire"
+            "name": "Forgetick"
+          },
+          "onStackTransfer": {
+            "name": "Forgetick"
           },
           "name": "Slot #2",
-          "x": 195,
-          "y": 77
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 3,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "onSlotChanged": {
-            "name": "Forgeonproceduire"
-          },
-          "name": "Slot #3",
-          "x": 232,
+          "x": 194,
           "y": 77
         }
       },
@@ -81,7 +82,7 @@
             "falpha": 0.0
           },
           "name": "Inventory",
-          "x": 248,
+          "x": 170,
           "y": 103
         }
       },
@@ -105,7 +106,20 @@
           "use1Xscale": false,
           "name": "flame_on.png",
           "x": 151,
-          "y": 77
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fuel:<BNBT:integer:FuelRemaining>%",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Fuel:<BNBT:integer:FuelRemaining>%",
+          "x": 256,
+          "y": 42
         }
       }
     ]
