@@ -434,7 +434,7 @@
       "name": "TitaniumOre",
       "type": "block",
       "sortid": 47,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_ore"
@@ -488,7 +488,7 @@
       "name": "Titanium_ArmorPickaxe",
       "type": "tool",
       "sortid": 49,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_armor_pickaxe"
@@ -497,7 +497,7 @@
       "name": "Titanium_ArmorSword",
       "type": "tool",
       "sortid": 51,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_armor_sword"
@@ -515,7 +515,7 @@
       "name": "Titanium_ArmorAxe",
       "type": "tool",
       "sortid": 50,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_armor_axe"
@@ -524,7 +524,7 @@
       "name": "Titanium_ArmorShovel",
       "type": "tool",
       "sortid": 52,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_armor_shovel"
@@ -533,7 +533,7 @@
       "name": "Titanium_ArmorHoe",
       "type": "tool",
       "sortid": 53,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_armor_hoe"
@@ -569,7 +569,7 @@
       "name": "MalachiteArmor",
       "type": "armor",
       "sortid": 47,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "malachite_armor",
@@ -620,7 +620,7 @@
       "name": "CobaltArmor",
       "type": "armor",
       "sortid": 52,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "cobalt_armor",
@@ -639,22 +639,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cobalt_armor_boots_recipe"
+    },
+    {
+      "name": "TitaniumIngotSmelting",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titanium_ingot_smelting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.all_the_elements.cobalt_shovel": "Cobalt Shovel",
       "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
+      "item.all_the_elements.cobalt_shovel": "Cobalt Shovel",
       "item.all_the_elements.malachite_sword": "Malachite Sword",
       "item.all_the_elements.copper_hoe": "Copper Hoe",
+      "item.all_the_elements.titanium_ingot": "Titanium Ingot",
       "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
       "item.all_the_elements.copper_sword": "Copper Sword",
-      "block.all_the_elements.malachite_ore": "Malachite Ore",
-      "block.all_the_elements.forgeoff": "Forge",
-      "block.all_the_elements.nikel_ore": "Nickel Ore",
       "block.all_the_elements.copper_ore": "Copper Ore",
+      "block.all_the_elements.nikel_ore": "Nickel Ore",
+      "block.all_the_elements.forgeoff": "Forge",
+      "block.all_the_elements.malachite_ore": "Malachite Ore",
       "item.all_the_elements.nickel_ingot": "Nickel Ingot",
       "item.all_the_elements.copper_axe": "Copper Axe",
       "item.all_the_elements.copper_armor_helmet": "Copper Helmet",
