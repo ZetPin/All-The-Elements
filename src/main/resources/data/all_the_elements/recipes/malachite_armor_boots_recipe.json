@@ -1,0 +1,26 @@
+{
+  "group": "all_the_elements",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "all_the_elements:malachite_ingot"
+    },
+    "2": {
+      "item": "all_the_elements:malachite_ingot"
+    },
+    "3": {
+      "item": "all_the_elements:malachite_ingot"
+    },
+    "5": {
+      "item": "all_the_elements:malachite_ingot"
+    }
+  },
+  "result": {
+    "item": "all_the_elements:malachite_armor_boots",
+    "count": 1
+  }
+}
