@@ -81,19 +81,114 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "malachite_ingot_smelting"
+    },
+    {
+      "name": "MalachitePickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_pickaxe"
+    },
+    {
+      "name": "MalachiteAxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_axe"
+    },
+    {
+      "name": "MalachiteSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_sword"
+    },
+    {
+      "name": "MalachiteShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_shovel"
+    },
+    {
+      "name": "MalachiteHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_hoe"
+    },
+    {
+      "name": "MalachitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_pickaxe_recipe"
+    },
+    {
+      "name": "MalachiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_axe_recipe"
+    },
+    {
+      "name": "MalachiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_sword_recipe"
+    },
+    {
+      "name": "MalachiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_shovel_recipe"
+    },
+    {
+      "name": "MalachiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "malachite_hoe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.all_the_elements.malachite_sword": "Malachite Sword",
+      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
       "block.all_the_elements.copper_ore": "Copper Ore",
       "block.all_the_elements.nikel_ore": "Nickel Ore",
       "block.all_the_elements.forgeoff": "Forge",
       "block.all_the_elements.malachite_ore": "Malachite Ore",
+      "item.all_the_elements.malachite_axe": "Malachite Axe",
       "item.all_the_elements.copper_ingot": "Copper Ingot",
       "item.all_the_elements.nickel_ingot": "Nickel Ingot",
-      "item.all_the_elements.malachite_ingot": "Malachite Ingot"
+      "item.all_the_elements.malachite_ingot": "Malachite Ingot",
+      "item.all_the_elements.malachite_hoe": "Malachite Hoe",
+      "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe"
     }
   },
   "workspaceSettings": {
