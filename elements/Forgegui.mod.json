@@ -19,6 +19,9 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Forgeburn"
+          },
           "name": "Slot #0",
           "x": 150,
           "y": 95
@@ -33,6 +36,9 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Forgeonproceduire"
+          },
           "name": "Slot #1",
           "x": 150,
           "y": 59
@@ -44,6 +50,9 @@
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Forgeonproceduire"
+          },
           "name": "Slot #2",
           "x": 195,
           "y": 77
@@ -55,6 +64,9 @@
           "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Forgeonproceduire"
+          },
           "name": "Slot #3",
           "x": 232,
           "y": 77
@@ -84,6 +96,16 @@
           "name": "Forge",
           "x": 130,
           "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flame_on.png",
+          "use1Xscale": false,
+          "name": "flame_on.png",
+          "x": 151,
+          "y": 77
         }
       }
     ]

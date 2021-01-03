@@ -32,7 +32,6 @@ import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.inventory.container.INamedContainerProvider;
@@ -60,32 +59,31 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 @AllTheElementsModElements.ModElement.Tag
-public class ForgeoffBlock extends AllTheElementsModElements.ModElement {
-	@ObjectHolder("all_the_elements:forgeoff")
+public class ForgeonBlock extends AllTheElementsModElements.ModElement {
+	@ObjectHolder("all_the_elements:forgeon")
 	public static final Block block = null;
-	@ObjectHolder("all_the_elements:forgeoff")
+	@ObjectHolder("all_the_elements:forgeon")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public ForgeoffBlock(AllTheElementsModElements instance) {
-		super(instance, 9);
+	public ForgeonBlock(AllTheElementsModElements instance) {
+		super(instance, 10);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("forgeoff"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("forgeon"));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("forgeoff");
+			setRegistryName("forgeon");
 		}
 
 		@Override
@@ -93,7 +91,7 @@ public class ForgeoffBlock extends AllTheElementsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(ForgeoffBlock.block, (int) (1)));
 		}
 
 		@Override
@@ -224,7 +222,7 @@ public class ForgeoffBlock extends AllTheElementsModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("forgeoff");
+			return new StringTextComponent("forgeon");
 		}
 
 		@Override

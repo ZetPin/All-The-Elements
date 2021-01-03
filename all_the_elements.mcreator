@@ -83,12 +83,63 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "forgeoff"
+    },
+    {
+      "name": "Forgeon",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgeon"
+    },
+    {
+      "name": "Forgeonproceduire",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgeonproceduire",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Forgesmelting",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgesmelting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.all_the_elements.forgeon": "Forge",
       "block.all_the_elements.nikel_ore": "Nickel Ore",
       "block.all_the_elements.copper_ore": "Copper Ore",
       "block.all_the_elements.forgeoff": "Forge",

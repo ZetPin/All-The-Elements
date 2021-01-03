@@ -34,6 +34,8 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.alltheelements.procedures.ForgeonproceduireProcedure;
+import net.mcreator.alltheelements.procedures.ForgeburnProcedure;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 import net.mcreator.alltheelements.AllTheElementsMod;
 
@@ -120,16 +122,38 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 59) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(0, 0, 0);
+				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 23) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(1, 0, 0);
+				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 70, 41) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(2, 0, 0);
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 107, 41) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(3, 0, 0);
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -326,6 +350,8 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("all_the_elements:textures/flame_on.png"));
+			this.blit(this.guiLeft + 25, this.guiTop + 40, 0, 0, 16, 16, 16, 16);
 		}
 
 		@Override
@@ -454,5 +480,33 @@ public class ForgeguiGui extends AllTheElementsModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 0 && changeType == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ForgeburnProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 1 && changeType == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				ForgeonproceduireProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 2 && changeType == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				ForgeonproceduireProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 3 && changeType == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				ForgeonproceduireProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

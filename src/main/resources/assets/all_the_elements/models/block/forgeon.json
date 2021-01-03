@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "all_the_elements:blocks/forge_side",
+    "up": "all_the_elements:blocks/forge_top_on_edit",
+    "north": "all_the_elements:blocks/forge_side",
+    "east": "all_the_elements:blocks/forge_side",
+    "south": "all_the_elements:blocks/forge_side",
+    "west": "all_the_elements:blocks/forge_side",
+    "particle": "all_the_elements:blocks/forge_side"
+  }
+}

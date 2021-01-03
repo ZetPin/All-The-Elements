@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "forge_side",
-    "textureTop": "forge_top",
+    "textureTop": "forge_top_on_edit",
     "textureLeft": "forge_side",
     "textureFront": "forge_side",
     "textureRight": "forge_side",
@@ -31,11 +31,11 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "No creative tab entry"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Forgeoff"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -100,7 +100,11 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
