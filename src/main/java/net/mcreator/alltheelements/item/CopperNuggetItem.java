@@ -12,11 +12,11 @@ import net.mcreator.alltheelements.itemgroup.AllTheElementsItemGroup;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
-public class CoppernuggetItem extends AllTheElementsModElements.ModElement {
-	@ObjectHolder("all_the_elements:coppernugget")
+public class CopperNuggetItem extends AllTheElementsModElements.ModElement {
+	@ObjectHolder("all_the_elements:copper_nugget")
 	public static final Item block = null;
-	public CoppernuggetItem(AllTheElementsModElements instance) {
-		super(instance, 109);
+	public CopperNuggetItem(AllTheElementsModElements instance) {
+		super(instance, 118);
 	}
 
 	@Override

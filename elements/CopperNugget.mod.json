@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "copper_nugget",
     "customModelName": "Normal",
-    "name": "Coppernugget",
+    "name": "Copper Nugget",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:AllTheElements"

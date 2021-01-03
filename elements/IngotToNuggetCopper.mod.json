@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Coppernugget"
+      "value": "CUSTOM:CopperNugget"
     },
     "name": "ingot_to_nugget_copper",
     "namespace": "mod"
