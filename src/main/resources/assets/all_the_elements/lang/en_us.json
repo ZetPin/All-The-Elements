@@ -1,14 +1,14 @@
 {
-  "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
   "item.all_the_elements.cobalt_shovel": "Cobalt Shovel",
+  "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
   "item.all_the_elements.malachite_sword": "Malachite Sword",
   "item.all_the_elements.copper_hoe": "Copper Hoe",
   "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
   "item.all_the_elements.copper_sword": "Copper Sword",
-  "block.all_the_elements.copper_ore": "Copper Ore",
-  "block.all_the_elements.nikel_ore": "Nickel Ore",
-  "block.all_the_elements.forgeoff": "Forge",
   "block.all_the_elements.malachite_ore": "Malachite Ore",
+  "block.all_the_elements.forgeoff": "Forge",
+  "block.all_the_elements.nikel_ore": "Nickel Ore",
+  "block.all_the_elements.copper_ore": "Copper Ore",
   "item.all_the_elements.nickel_ingot": "Nickel Ingot",
   "item.all_the_elements.copper_axe": "Copper Axe",
   "item.all_the_elements.copper_armor_helmet": "Copper Helmet",
@@ -28,5 +28,6 @@
   "item.all_the_elements.copper_armor_boots": "Copper Boots",
   "item.all_the_elements.copper_shovel": "Copper Shovel",
   "item.all_the_elements.cobalt_axe": "Cobalt Axe",
-  "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe"
+  "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe",
+  "block.all_the_elements.lol": "LOL"
 }
