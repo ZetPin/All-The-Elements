@@ -648,6 +648,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "titanium_ingot_smelting"
+    },
+    {
+      "name": "BlockOfNickel",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_of_nickel"
     }
   ],
   "variable_elements": [],
@@ -694,6 +703,7 @@
       "item.all_the_elements.malachite_ingot": "Malachite Ingot",
       "item.all_the_elements.copper_armor_chestplate": "Copper Chestplate",
       "item.all_the_elements.copper_armor_boots": "Copper Boots",
+      "block.all_the_elements.block_of_nickel": "Nickel Block",
       "item.all_the_elements.titanium_armor_chestplate": "Titanium Chestplate",
       "item.all_the_elements.copper_shovel": "Copper Shovel",
       "item.all_the_elements.titanium_armor_boots": "Titanium Boots",
