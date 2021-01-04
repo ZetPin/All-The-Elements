@@ -8,7 +8,7 @@
     "name": "Titanium Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Axe",
     "harvestLevel": 4,

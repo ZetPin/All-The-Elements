@@ -8,7 +8,7 @@
     "name": "Zirconium Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Hoe",
     "harvestLevel": 5,

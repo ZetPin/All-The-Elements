@@ -8,7 +8,7 @@
     "name": "Cobalt Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Spade",
     "harvestLevel": 2,

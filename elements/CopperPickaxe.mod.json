@@ -8,7 +8,7 @@
     "name": "Copper Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 2,

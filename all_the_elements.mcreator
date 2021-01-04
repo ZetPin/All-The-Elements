@@ -103,7 +103,7 @@
     {
       "name": "MalachiteSword",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +193,7 @@
     {
       "name": "CopperSword",
       "type": "tool",
-      "sortid": 44,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -301,7 +301,7 @@
     {
       "name": "CobaltSword",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -373,7 +373,7 @@
     {
       "name": "Petrol",
       "type": "fluid",
-      "sortid": 59,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -382,7 +382,7 @@
     {
       "name": "CopperArmor",
       "type": "armor",
-      "sortid": 52,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -496,7 +496,7 @@
     {
       "name": "Titanium_ArmorSword",
       "type": "tool",
-      "sortid": 46,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -568,7 +568,7 @@
     {
       "name": "MalachiteArmor",
       "type": "armor",
-      "sortid": 51,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -619,7 +619,7 @@
     {
       "name": "CobaltArmor",
       "type": "armor",
-      "sortid": 53,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -670,7 +670,7 @@
     {
       "name": "BlockOfNickel",
       "type": "block",
-      "sortid": 60,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -796,7 +796,7 @@
     {
       "name": "Zirconium_ArmorsArmor",
       "type": "armor",
-      "sortid": 54,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -811,7 +811,7 @@
     {
       "name": "Zirconium_ToolsSword",
       "type": "tool",
-      "sortid": 47,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -973,7 +973,7 @@
     {
       "name": "Zinc_ArmorsArmor",
       "type": "armor",
-      "sortid": 55,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -988,7 +988,7 @@
     {
       "name": "Zinc_ToolsSword",
       "type": "tool",
-      "sortid": 48,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1024,7 +1024,7 @@
     {
       "name": "TitaniumArmor",
       "type": "armor",
-      "sortid": 56,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1075,7 +1075,7 @@
     {
       "name": "NickelArmor",
       "type": "armor",
-      "sortid": 57,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1153,7 +1153,7 @@
     {
       "name": "CopperBlock",
       "type": "block",
-      "sortid": 61,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1252,7 +1252,7 @@
     {
       "name": "ManganesePickaxe",
       "type": "tool",
-      "sortid": 62,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1261,7 +1261,7 @@
     {
       "name": "ManganeseAxe",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1270,7 +1270,7 @@
     {
       "name": "ManganeseSword",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1279,7 +1279,7 @@
     {
       "name": "ManganeseShovel",
       "type": "tool",
-      "sortid": 64,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1288,7 +1288,7 @@
     {
       "name": "ManganeseHoe",
       "type": "tool",
-      "sortid": 65,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1342,7 +1342,7 @@
     {
       "name": "ManganeseArmor",
       "type": "armor",
-      "sortid": 58,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1393,7 +1393,7 @@
     {
       "name": "NickelPickaxe",
       "type": "tool",
-      "sortid": 66,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1402,7 +1402,7 @@
     {
       "name": "NickelAxe",
       "type": "tool",
-      "sortid": 67,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1411,7 +1411,7 @@
     {
       "name": "NickelSword",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1420,7 +1420,7 @@
     {
       "name": "NickelShovel",
       "type": "tool",
-      "sortid": 68,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1429,7 +1429,7 @@
     {
       "name": "NickelHoe",
       "type": "tool",
-      "sortid": 69,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1501,8 +1501,8 @@
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.manganese_armor_leggings": "Manganese Leggings",
       "item.all_the_elements.manganese_hoe": "Manganese Hoe",
-      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "item.all_the_elements.malachite_shovel": "Malachite Shovel",
+      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "item.all_the_elements.titanium_armor_sword": "Titanium Sword",
       "itemGroup.taball_the_elements": "A.T.E Ores",
       "block.all_the_elements.block_of_nickel": "Nickel Block",

@@ -8,7 +8,7 @@
     "name": "Titanium Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Hoe",
     "harvestLevel": 4,
