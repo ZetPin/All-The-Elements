@@ -29,7 +29,7 @@ public class CobaltArmorItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:cobalt_armor_boots")
 	public static final Item boots = null;
 	public CobaltArmorItem(AllTheElementsModElements instance) {
-		super(instance, 52);
+		super(instance, 49);
 	}
 
 	@Override

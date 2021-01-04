@@ -50,7 +50,7 @@ public class PetrolBlock extends AllTheElementsModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public PetrolBlock(AllTheElementsModElements instance) {
-		super(instance, 41);
+		super(instance, 54);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

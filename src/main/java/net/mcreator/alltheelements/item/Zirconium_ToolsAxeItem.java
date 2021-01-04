@@ -17,7 +17,7 @@ public class Zirconium_ToolsAxeItem extends AllTheElementsModElements.ModElement
 	@ObjectHolder("all_the_elements:zirconium_tools_axe")
 	public static final Item block = null;
 	public Zirconium_ToolsAxeItem(AllTheElementsModElements instance) {
-		super(instance, 64);
+		super(instance, 34);
 	}
 
 	@Override

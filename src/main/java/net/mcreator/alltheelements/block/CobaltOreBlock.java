@@ -39,7 +39,7 @@ public class CobaltOreBlock extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:cobalt_ore")
 	public static final Block block = null;
 	public CobaltOreBlock(AllTheElementsModElements instance) {
-		super(instance, 29);
+		super(instance, 4);
 	}
 
 	@Override

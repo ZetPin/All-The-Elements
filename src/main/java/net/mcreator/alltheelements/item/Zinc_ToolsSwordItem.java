@@ -17,7 +17,7 @@ public class Zinc_ToolsSwordItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zinc_tools_sword")
 	public static final Item block = null;
 	public Zinc_ToolsSwordItem(AllTheElementsModElements instance) {
-		super(instance, 86);
+		super(instance, 46);
 	}
 
 	@Override

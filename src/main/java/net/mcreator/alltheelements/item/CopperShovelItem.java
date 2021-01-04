@@ -17,7 +17,7 @@ public class CopperShovelItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:copper_shovel")
 	public static final Item block = null;
 	public CopperShovelItem(AllTheElementsModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override

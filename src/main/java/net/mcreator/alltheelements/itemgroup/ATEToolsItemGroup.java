@@ -13,7 +13,7 @@ import net.mcreator.alltheelements.AllTheElementsModElements;
 @AllTheElementsModElements.ModElement.Tag
 public class ATEToolsItemGroup extends AllTheElementsModElements.ModElement {
 	public ATEToolsItemGroup(AllTheElementsModElements instance) {
-		super(instance, 115);
+		super(instance, 128);
 	}
 
 	@Override

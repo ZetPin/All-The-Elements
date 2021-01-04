@@ -17,7 +17,7 @@ public class Zirconium_ToolsHoeItem extends AllTheElementsModElements.ModElement
 	@ObjectHolder("all_the_elements:zirconium_tools_hoe")
 	public static final Item block = null;
 	public Zirconium_ToolsHoeItem(AllTheElementsModElements instance) {
-		super(instance, 67);
+		super(instance, 36);
 	}
 
 	@Override

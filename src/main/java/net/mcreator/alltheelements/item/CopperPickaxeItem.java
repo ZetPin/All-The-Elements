@@ -17,7 +17,7 @@ public class CopperPickaxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:copper_pickaxe")
 	public static final Item block = null;
 	public CopperPickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 19);
+		super(instance, 21);
 	}
 
 	@Override

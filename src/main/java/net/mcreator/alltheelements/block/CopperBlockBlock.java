@@ -24,7 +24,7 @@ public class CopperBlockBlock extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:copper_block")
 	public static final Block block = null;
 	public CopperBlockBlock(AllTheElementsModElements instance) {
-		super(instance, 112);
+		super(instance, 56);
 	}
 
 	@Override

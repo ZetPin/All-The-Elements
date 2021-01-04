@@ -17,7 +17,7 @@ public class CobaltPickaxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:cobalt_pickaxe")
 	public static final Item block = null;
 	public CobaltPickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 31);
+		super(instance, 25);
 	}
 
 	@Override

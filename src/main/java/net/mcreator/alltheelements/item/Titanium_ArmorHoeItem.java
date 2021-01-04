@@ -17,7 +17,7 @@ public class Titanium_ArmorHoeItem extends AllTheElementsModElements.ModElement 
 	@ObjectHolder("all_the_elements:titanium_armor_hoe")
 	public static final Item block = null;
 	public Titanium_ArmorHoeItem(AllTheElementsModElements instance) {
-		super(instance, 53);
+		super(instance, 32);
 	}
 
 	@Override

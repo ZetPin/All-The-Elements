@@ -17,7 +17,7 @@ public class CobaltHoeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:cobalt_hoe")
 	public static final Item block = null;
 	public CobaltHoeItem(AllTheElementsModElements instance) {
-		super(instance, 35);
+		super(instance, 28);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class Titanium_ArmorSwordItem extends AllTheElementsModElements.ModElemen
 	@ObjectHolder("all_the_elements:titanium_armor_sword")
 	public static final Item block = null;
 	public Titanium_ArmorSwordItem(AllTheElementsModElements instance) {
-		super(instance, 51);
+		super(instance, 44);
 	}
 
 	@Override

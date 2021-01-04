@@ -22,7 +22,7 @@
     {
       "name": "NickelIngot",
       "type": "item",
-      "sortid": 3,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "Nickelingotsmelting",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "CopperIngot",
       "type": "item",
-      "sortid": 5,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "CopperIngotSmelting",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "MalachiteIngot",
       "type": "item",
-      "sortid": 7,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "MalachiteOre",
       "type": "block",
-      "sortid": 8,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "MalachiteIngotSmelting",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "MalachitePickaxe",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "MalachiteAxe",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "MalachiteSword",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "MalachiteShovel",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "MalachiteHoe",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "MalachitePickaxeRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "MalachiteAxeRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "MalachiteSwordRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "MalachiteShovelRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "MalachiteHoeRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -175,7 +175,7 @@
     {
       "name": "CopperPickaxe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "CopperAxe",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +193,7 @@
     {
       "name": "CopperSword",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +202,7 @@
     {
       "name": "CopperShovel",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -211,7 +211,7 @@
     {
       "name": "CopperHoe",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -220,7 +220,7 @@
     {
       "name": "CopperPickaxeRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -229,7 +229,7 @@
     {
       "name": "CopperAxeRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -238,7 +238,7 @@
     {
       "name": "CopperSwordRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -247,7 +247,7 @@
     {
       "name": "CopperShovelRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -256,7 +256,7 @@
     {
       "name": "CopperHoeRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -265,7 +265,7 @@
     {
       "name": "CobaltOre",
       "type": "block",
-      "sortid": 29,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +274,7 @@
     {
       "name": "CobaltIngot",
       "type": "item",
-      "sortid": 30,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -283,7 +283,7 @@
     {
       "name": "CobaltPickaxe",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -292,7 +292,7 @@
     {
       "name": "CobaltAxe",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -301,7 +301,7 @@
     {
       "name": "CobaltSword",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -310,7 +310,7 @@
     {
       "name": "CobaltShovel",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -319,7 +319,7 @@
     {
       "name": "CobaltHoe",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -328,7 +328,7 @@
     {
       "name": "CobaltPickaxeRecipe",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -337,7 +337,7 @@
     {
       "name": "CobaltAxeRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -346,7 +346,7 @@
     {
       "name": "CobaltSwordRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -355,7 +355,7 @@
     {
       "name": "CobaltShovelRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -364,7 +364,7 @@
     {
       "name": "CobaltHoeRecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -373,7 +373,7 @@
     {
       "name": "Petrol",
       "type": "fluid",
-      "sortid": 41,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -382,7 +382,7 @@
     {
       "name": "CopperArmor",
       "type": "armor",
-      "sortid": 42,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -397,7 +397,7 @@
     {
       "name": "CopperArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -406,7 +406,7 @@
     {
       "name": "CopperArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -415,7 +415,7 @@
     {
       "name": "CopperArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -424,7 +424,7 @@
     {
       "name": "CopperArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -433,7 +433,7 @@
     {
       "name": "TitaniumOre",
       "type": "block",
-      "sortid": 47,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -442,7 +442,7 @@
     {
       "name": "Titanium_ArmorShovelRecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -451,7 +451,7 @@
     {
       "name": "Titanium_ArmorHoeRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -460,7 +460,7 @@
     {
       "name": "TitaniumIngot",
       "type": "item",
-      "sortid": 48,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -469,7 +469,7 @@
     {
       "name": "Titanium_ArmorSwordRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -478,7 +478,7 @@
     {
       "name": "Titanium_ArmorAxeRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -487,7 +487,7 @@
     {
       "name": "Titanium_ArmorPickaxe",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -496,7 +496,7 @@
     {
       "name": "Titanium_ArmorSword",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -505,7 +505,7 @@
     {
       "name": "Titanium_ArmorPickaxeRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -514,7 +514,7 @@
     {
       "name": "Titanium_ArmorAxe",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -523,7 +523,7 @@
     {
       "name": "Titanium_ArmorShovel",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -532,7 +532,7 @@
     {
       "name": "Titanium_ArmorHoe",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -541,7 +541,7 @@
     {
       "name": "CobaltArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -550,7 +550,7 @@
     {
       "name": "MalachiteArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -559,7 +559,7 @@
     {
       "name": "MalachiteArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -583,7 +583,7 @@
     {
       "name": "CobaltArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -592,7 +592,7 @@
     {
       "name": "CobaltArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -601,7 +601,7 @@
     {
       "name": "MalachiteArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -610,7 +610,7 @@
     {
       "name": "MalachiteArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -619,7 +619,7 @@
     {
       "name": "CobaltArmor",
       "type": "armor",
-      "sortid": 52,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -634,7 +634,7 @@
     {
       "name": "CobaltArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -643,7 +643,7 @@
     {
       "name": "TitaniumIngotSmelting",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -652,7 +652,7 @@
     {
       "name": "ZirconiumIngot",
       "type": "item",
-      "sortid": 61,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -661,7 +661,7 @@
     {
       "name": "ZirconiumOre",
       "type": "block",
-      "sortid": 60,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -670,7 +670,7 @@
     {
       "name": "BlockOfNickel",
       "type": "block",
-      "sortid": 60,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -679,7 +679,7 @@
     {
       "name": "Zirconium_ToolsAxe",
       "type": "tool",
-      "sortid": 64,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -688,7 +688,7 @@
     {
       "name": "Zirconium_ToolsShovel",
       "type": "tool",
-      "sortid": 66,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -697,7 +697,7 @@
     {
       "name": "Zirconium_ToolsAxeRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -706,7 +706,7 @@
     {
       "name": "Zirconium_ToolsShovelRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -715,7 +715,7 @@
     {
       "name": "Zirconium_ToolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -724,7 +724,7 @@
     {
       "name": "Zirconium_ToolsSwordRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -733,7 +733,7 @@
     {
       "name": "Zirconium_ArmorsArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -742,7 +742,7 @@
     {
       "name": "Zirconium_ArmorsArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -751,7 +751,7 @@
     {
       "name": "Zirconium_ArmorsArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -760,7 +760,7 @@
     {
       "name": "Zirconium_ToolsHoe",
       "type": "tool",
-      "sortid": 67,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -769,7 +769,7 @@
     {
       "name": "Zirconium_ArmorsArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -778,7 +778,7 @@
     {
       "name": "Zirconium_ToolsPickaxe",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -787,7 +787,7 @@
     {
       "name": "Zirconium_ToolsHoeRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -796,7 +796,7 @@
     {
       "name": "Zirconium_ArmorsArmor",
       "type": "armor",
-      "sortid": 73,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -811,7 +811,7 @@
     {
       "name": "Zirconium_ToolsSword",
       "type": "tool",
-      "sortid": 65,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -820,7 +820,7 @@
     {
       "name": "BlocktoIngotNickel",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -829,7 +829,7 @@
     {
       "name": "NickelNugget",
       "type": "item",
-      "sortid": 78,
+      "sortid": 15,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -838,7 +838,7 @@
     {
       "name": "NuggetToIngotNickel",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -847,7 +847,7 @@
     {
       "name": "AllTheElements",
       "type": "tab",
-      "sortid": 80,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -856,7 +856,7 @@
     {
       "name": "ZincOre",
       "type": "block",
-      "sortid": 81,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -865,7 +865,7 @@
     {
       "name": "ZincIngot",
       "type": "item",
-      "sortid": 82,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -874,7 +874,7 @@
     {
       "name": "ZincIngotSmelting",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -883,7 +883,7 @@
     {
       "name": "Zinc_ArmorsArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -892,7 +892,7 @@
     {
       "name": "Zinc_ArmorsArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -901,7 +901,7 @@
     {
       "name": "Zinc_ToolsPickaxe",
       "type": "tool",
-      "sortid": 84,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -910,7 +910,7 @@
     {
       "name": "Zinc_ToolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -919,7 +919,7 @@
     {
       "name": "Zinc_ArmorsArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -928,7 +928,7 @@
     {
       "name": "Zinc_ToolsHoeRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -937,7 +937,7 @@
     {
       "name": "Zinc_ToolsAxe",
       "type": "tool",
-      "sortid": 85,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -946,7 +946,7 @@
     {
       "name": "Zinc_ToolsAxeRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -955,7 +955,7 @@
     {
       "name": "Zinc_ToolsSwordRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -964,7 +964,7 @@
     {
       "name": "Zinc_ArmorsArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -973,7 +973,7 @@
     {
       "name": "Zinc_ArmorsArmor",
       "type": "armor",
-      "sortid": 94,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -988,7 +988,7 @@
     {
       "name": "Zinc_ToolsSword",
       "type": "tool",
-      "sortid": 86,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -997,7 +997,7 @@
     {
       "name": "Zinc_ToolsShovelRecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1006,7 +1006,7 @@
     {
       "name": "Zinc_ToolsShovel",
       "type": "tool",
-      "sortid": 87,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1015,7 +1015,7 @@
     {
       "name": "Zinc_ToolsHoe",
       "type": "tool",
-      "sortid": 88,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1024,7 +1024,7 @@
     {
       "name": "TitaniumArmor",
       "type": "armor",
-      "sortid": 99,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1039,7 +1039,7 @@
     {
       "name": "TitaniumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1048,7 +1048,7 @@
     {
       "name": "TitaniumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1057,7 +1057,7 @@
     {
       "name": "TitaniumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1066,7 +1066,7 @@
     {
       "name": "TitaniumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1075,7 +1075,7 @@
     {
       "name": "NickelArmor",
       "type": "armor",
-      "sortid": 104,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1090,7 +1090,7 @@
     {
       "name": "NickelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1099,7 +1099,7 @@
     {
       "name": "NickelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1108,7 +1108,7 @@
     {
       "name": "NickelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1117,7 +1117,7 @@
     {
       "name": "NickelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1126,7 +1126,7 @@
     {
       "name": "ZirconiumIngotSmelting",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1135,7 +1135,7 @@
     {
       "name": "IngotToNuggetNickel",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1144,7 +1144,7 @@
     {
       "name": "IngotToNuggetCopper",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1153,7 +1153,7 @@
     {
       "name": "CopperBlock",
       "type": "block",
-      "sortid": 112,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1162,7 +1162,7 @@
     {
       "name": "IngotToBlockCopper",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1171,7 +1171,7 @@
     {
       "name": "BlockToIngotCopper",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1180,7 +1180,7 @@
     {
       "name": "ATETools",
       "type": "tab",
-      "sortid": 115,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1189,7 +1189,7 @@
     {
       "name": "ATEArmor",
       "type": "tab",
-      "sortid": 116,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1198,7 +1198,7 @@
     {
       "name": "ATEMISC",
       "type": "tab",
-      "sortid": 117,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1207,7 +1207,7 @@
     {
       "name": "CopperNugget",
       "type": "item",
-      "sortid": 118,
+      "sortid": 16,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -1216,11 +1216,20 @@
     {
       "name": "NuggetToIngotCopper",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "nugget_to_ingot_copper"
+    },
+    {
+      "name": "ManganeseOre",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_ore"
     }
   ],
   "variable_elements": [],
@@ -1287,6 +1296,7 @@
       "item.all_the_elements.titanium_armor_leggings": "Titanium Leggings",
       "item.all_the_elements.cobalt_armor_helmet": "Cobalt Helmet",
       "item.all_the_elements.copper_nugget": "Copper Nugget",
+      "block.all_the_elements.manganese_ore": "Manganese Ore",
       "item.all_the_elements.copper_armor_helmet": "Copper Helmet",
       "item.all_the_elements.zirconium_tools_axe": "Zirconium_Tools Axe",
       "block.all_the_elements.copper_block": "Copper Block",

@@ -16,7 +16,7 @@ public class TitaniumIngotItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:titanium_ingot")
 	public static final Item block = null;
 	public TitaniumIngotItem(AllTheElementsModElements instance) {
-		super(instance, 48);
+		super(instance, 12);
 	}
 
 	@Override

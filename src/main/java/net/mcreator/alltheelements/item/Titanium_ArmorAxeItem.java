@@ -17,7 +17,7 @@ public class Titanium_ArmorAxeItem extends AllTheElementsModElements.ModElement 
 	@ObjectHolder("all_the_elements:titanium_armor_axe")
 	public static final Item block = null;
 	public Titanium_ArmorAxeItem(AllTheElementsModElements instance) {
-		super(instance, 50);
+		super(instance, 30);
 	}
 
 	@Override

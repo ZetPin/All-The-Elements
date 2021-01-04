@@ -17,7 +17,7 @@ public class MalachiteShovelItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:malachite_shovel")
 	public static final Item block = null;
 	public MalachiteShovelItem(AllTheElementsModElements instance) {
-		super(instance, 12);
+		super(instance, 19);
 	}
 
 	@Override
