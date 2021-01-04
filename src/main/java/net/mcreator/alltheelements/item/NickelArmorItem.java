@@ -29,7 +29,7 @@ public class NickelArmorItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:nickel_armor_boots")
 	public static final Item boots = null;
 	public NickelArmorItem(AllTheElementsModElements instance) {
-		super(instance, 53);
+		super(instance, 57);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class Zinc_ToolsPickaxeItem extends AllTheElementsModElements.ModElement 
 	@ObjectHolder("all_the_elements:zinc_tools_pickaxe")
 	public static final Item block = null;
 	public Zinc_ToolsPickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 37);
+		super(instance, 39);
 	}
 
 	@Override

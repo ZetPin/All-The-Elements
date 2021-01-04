@@ -17,7 +17,7 @@ public class CobaltAxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:cobalt_axe")
 	public static final Item block = null;
 	public CobaltAxeItem(AllTheElementsModElements instance) {
-		super(instance, 26);
+		super(instance, 28);
 	}
 
 	@Override

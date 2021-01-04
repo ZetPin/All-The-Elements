@@ -17,7 +17,7 @@ public class ManganesePickaxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_pickaxe")
 	public static final Item block = null;
 	public ManganesePickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 135);
+		super(instance, 62);
 	}
 
 	@Override

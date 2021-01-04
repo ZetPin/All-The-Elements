@@ -16,7 +16,7 @@ public class ZirconiumIngotItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zirconium_ingot")
 	public static final Item block = null;
 	public ZirconiumIngotItem(AllTheElementsModElements instance) {
-		super(instance, 13);
+		super(instance, 14);
 	}
 
 	@Override

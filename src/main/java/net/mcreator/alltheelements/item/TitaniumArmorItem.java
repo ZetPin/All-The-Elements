@@ -29,7 +29,7 @@ public class TitaniumArmorItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:titanium_armor_boots")
 	public static final Item boots = null;
 	public TitaniumArmorItem(AllTheElementsModElements instance) {
-		super(instance, 52);
+		super(instance, 56);
 	}
 
 	@Override

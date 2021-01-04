@@ -17,7 +17,7 @@ public class Zirconium_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 	@ObjectHolder("all_the_elements:zirconium_tools_sword")
 	public static final Item block = null;
 	public Zirconium_ToolsSwordItem(AllTheElementsModElements instance) {
-		super(instance, 45);
+		super(instance, 47);
 	}
 
 	@Override

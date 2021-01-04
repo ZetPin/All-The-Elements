@@ -17,7 +17,7 @@ public class ManganeseShovelItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_shovel")
 	public static final Item block = null;
 	public ManganeseShovelItem(AllTheElementsModElements instance) {
-		super(instance, 138);
+		super(instance, 64);
 	}
 
 	@Override

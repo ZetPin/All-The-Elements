@@ -24,7 +24,7 @@ public class BlockOfNickelBlock extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:block_of_nickel")
 	public static final Block block = null;
 	public BlockOfNickelBlock(AllTheElementsModElements instance) {
-		super(instance, 55);
+		super(instance, 60);
 	}
 
 	@Override

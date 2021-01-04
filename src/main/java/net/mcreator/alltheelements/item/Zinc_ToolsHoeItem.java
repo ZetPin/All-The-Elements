@@ -17,7 +17,7 @@ public class Zinc_ToolsHoeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zinc_tools_hoe")
 	public static final Item block = null;
 	public Zinc_ToolsHoeItem(AllTheElementsModElements instance) {
-		super(instance, 40);
+		super(instance, 42);
 	}
 
 	@Override

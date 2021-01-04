@@ -16,7 +16,7 @@ public class NickelIngotItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:nickel_ingot")
 	public static final Item block = null;
 	public NickelIngotItem(AllTheElementsModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override

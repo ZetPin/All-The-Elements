@@ -29,7 +29,7 @@ public class Zinc_ArmorsArmorItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zinc_armors_armor_boots")
 	public static final Item boots = null;
 	public Zinc_ArmorsArmorItem(AllTheElementsModElements instance) {
-		super(instance, 51);
+		super(instance, 55);
 	}
 
 	@Override

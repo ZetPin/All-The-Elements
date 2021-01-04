@@ -17,7 +17,7 @@ public class NickelPickaxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:nickel_pickaxe")
 	public static final Item block = null;
 	public NickelPickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 150);
+		super(instance, 66);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class MalachitePickaxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:malachite_pickaxe")
 	public static final Item block = null;
 	public MalachitePickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 17);
+		super(instance, 19);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class NickelAxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:nickel_axe")
 	public static final Item block = null;
 	public NickelAxeItem(AllTheElementsModElements instance) {
-		super(instance, 151);
+		super(instance, 67);
 	}
 
 	@Override

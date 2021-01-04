@@ -17,7 +17,7 @@ public class NickelHoeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:nickel_hoe")
 	public static final Item block = null;
 	public NickelHoeItem(AllTheElementsModElements instance) {
-		super(instance, 154);
+		super(instance, 69);
 	}
 
 	@Override

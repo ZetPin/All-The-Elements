@@ -17,7 +17,7 @@ public class ManganeseHoeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_hoe")
 	public static final Item block = null;
 	public ManganeseHoeItem(AllTheElementsModElements instance) {
-		super(instance, 139);
+		super(instance, 65);
 	}
 
 	@Override

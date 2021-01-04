@@ -17,7 +17,7 @@ public class Zinc_ToolsShovelItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zinc_tools_shovel")
 	public static final Item block = null;
 	public Zinc_ToolsShovelItem(AllTheElementsModElements instance) {
-		super(instance, 39);
+		super(instance, 41);
 	}
 
 	@Override

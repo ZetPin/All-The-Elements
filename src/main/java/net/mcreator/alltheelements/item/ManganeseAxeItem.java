@@ -17,7 +17,7 @@ public class ManganeseAxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_axe")
 	public static final Item block = null;
 	public ManganeseAxeItem(AllTheElementsModElements instance) {
-		super(instance, 136);
+		super(instance, 63);
 	}
 
 	@Override

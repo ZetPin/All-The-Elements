@@ -17,7 +17,7 @@ public class CopperAxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:copper_axe")
 	public static final Item block = null;
 	public CopperAxeItem(AllTheElementsModElements instance) {
-		super(instance, 22);
+		super(instance, 24);
 	}
 
 	@Override

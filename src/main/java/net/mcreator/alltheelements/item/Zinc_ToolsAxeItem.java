@@ -17,7 +17,7 @@ public class Zinc_ToolsAxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zinc_tools_axe")
 	public static final Item block = null;
 	public Zinc_ToolsAxeItem(AllTheElementsModElements instance) {
-		super(instance, 38);
+		super(instance, 40);
 	}
 
 	@Override

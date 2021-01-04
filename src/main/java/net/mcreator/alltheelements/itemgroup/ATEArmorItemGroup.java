@@ -13,7 +13,7 @@ import net.mcreator.alltheelements.AllTheElementsModElements;
 @AllTheElementsModElements.ModElement.Tag
 public class ATEArmorItemGroup extends AllTheElementsModElements.ModElement {
 	public ATEArmorItemGroup(AllTheElementsModElements instance) {
-		super(instance, 129);
+		super(instance, 142);
 	}
 
 	@Override

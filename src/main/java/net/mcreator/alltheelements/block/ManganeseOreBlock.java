@@ -23,7 +23,7 @@ public class ManganeseOreBlock extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_ore")
 	public static final Block block = null;
 	public ManganeseOreBlock(AllTheElementsModElements instance) {
-		super(instance, 132);
+		super(instance, 8);
 	}
 
 	@Override

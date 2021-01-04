@@ -29,7 +29,7 @@ public class MalachiteArmorItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:malachite_armor_boots")
 	public static final Item boots = null;
 	public MalachiteArmorItem(AllTheElementsModElements instance) {
-		super(instance, 47);
+		super(instance, 51);
 	}
 
 	@Override

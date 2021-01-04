@@ -17,7 +17,7 @@ public class Titanium_ArmorPickaxeItem extends AllTheElementsModElements.ModElem
 	@ObjectHolder("all_the_elements:titanium_armor_pickaxe")
 	public static final Item block = null;
 	public Titanium_ArmorPickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 29);
+		super(instance, 31);
 	}
 
 	@Override

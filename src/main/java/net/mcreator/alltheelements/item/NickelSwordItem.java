@@ -17,7 +17,7 @@ public class NickelSwordItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:nickel_sword")
 	public static final Item block = null;
 	public NickelSwordItem(AllTheElementsModElements instance) {
-		super(instance, 152);
+		super(instance, 50);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class Zirconium_ToolsPickaxeItem extends AllTheElementsModElements.ModEle
 	@ObjectHolder("all_the_elements:zirconium_tools_pickaxe")
 	public static final Item block = null;
 	public Zirconium_ToolsPickaxeItem(AllTheElementsModElements instance) {
-		super(instance, 33);
+		super(instance, 35);
 	}
 
 	@Override

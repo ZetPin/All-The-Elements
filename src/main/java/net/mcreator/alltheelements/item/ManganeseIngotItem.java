@@ -16,7 +16,7 @@ public class ManganeseIngotItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_ingot")
 	public static final Item block = null;
 	public ManganeseIngotItem(AllTheElementsModElements instance) {
-		super(instance, 133);
+		super(instance, 16);
 	}
 
 	@Override
