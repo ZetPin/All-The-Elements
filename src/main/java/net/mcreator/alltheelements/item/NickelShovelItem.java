@@ -17,7 +17,7 @@ public class NickelShovelItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:nickel_shovel")
 	public static final Item block = null;
 	public NickelShovelItem(AllTheElementsModElements instance) {
-		super(instance, 68);
+		super(instance, 49);
 	}
 
 	@Override

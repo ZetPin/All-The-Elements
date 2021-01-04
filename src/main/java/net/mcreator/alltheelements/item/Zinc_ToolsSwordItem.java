@@ -24,7 +24,7 @@ public class Zinc_ToolsSwordItem extends AllTheElementsModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 300;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class Zinc_ToolsSwordItem extends AllTheElementsModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {

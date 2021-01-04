@@ -17,7 +17,7 @@ public class ManganeseSwordItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_sword")
 	public static final Item block = null;
 	public ManganeseSwordItem(AllTheElementsModElements instance) {
-		super(instance, 49);
+		super(instance, 57);
 	}
 
 	@Override

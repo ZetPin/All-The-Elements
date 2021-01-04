@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.mcreator.alltheelements.itemgroup.ATEArmorItemGroup;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
@@ -17,14 +17,14 @@ public class Titanium_ArmorSwordItem extends AllTheElementsModElements.ModElemen
 	@ObjectHolder("all_the_elements:titanium_armor_sword")
 	public static final Item block = null;
 	public Titanium_ArmorSwordItem(AllTheElementsModElements instance) {
-		super(instance, 46);
+		super(instance, 51);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getEfficiency() {
@@ -32,11 +32,11 @@ public class Titanium_ArmorSwordItem extends AllTheElementsModElements.ModElemen
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
-				return 4;
+				return 3;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +46,7 @@ public class Titanium_ArmorSwordItem extends AllTheElementsModElements.ModElemen
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TitaniumIngotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ATEArmorItemGroup.tab)) {
+		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("titanium_armor_sword"));
 	}
 }

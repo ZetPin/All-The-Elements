@@ -29,7 +29,7 @@ public class ManganeseArmorItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:manganese_armor_boots")
 	public static final Item boots = null;
 	public ManganeseArmorItem(AllTheElementsModElements instance) {
-		super(instance, 58);
+		super(instance, 66);
 	}
 
 	@Override

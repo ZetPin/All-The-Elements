@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "all_the_elements:manganese_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "2": {
-      "item": "all_the_elements:manganese_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "3": {
-      "item": "all_the_elements:manganese_ingot"
+      "item": "all_the_elements:unknown_element"
     },
     "5": {
-      "item": "all_the_elements:manganese_ingot"
+      "item": "all_the_elements:unknown_element"
     }
   },
   "result": {
-    "item": "all_the_elements:manganese_armor_boots",
+    "item": "all_the_elements:unknown_element_boots",
     "count": 1
   }
 }
