@@ -1,12 +1,21 @@
 
 package net.mcreator.alltheelements.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
+
+import net.mcreator.alltheelements.itemgroup.ATEToolsItemGroup;
+import net.mcreator.alltheelements.AllTheElementsModElements;
+
 @AllTheElementsModElements.ModElement.Tag
 public class ManganeseHoeItem extends AllTheElementsModElements.ModElement {
-
 	@ObjectHolder("all_the_elements:manganese_hoe")
 	public static final Item block = null;
-
 	public ManganeseHoeItem(AllTheElementsModElements instance) {
 		super(instance, 46);
 	}
@@ -38,8 +47,6 @@ public class ManganeseHoeItem extends AllTheElementsModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(ManganeseIngotItem.block, (int) (1)));
 			}
 		}, -3f, new Item.Properties().group(ATEToolsItemGroup.tab)) {
-
 		}.setRegistryName("manganese_hoe"));
 	}
-
 }

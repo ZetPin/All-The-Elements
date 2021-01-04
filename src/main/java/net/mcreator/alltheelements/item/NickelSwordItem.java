@@ -1,12 +1,21 @@
 
 package net.mcreator.alltheelements.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.alltheelements.itemgroup.ATEArmorItemGroup;
+import net.mcreator.alltheelements.AllTheElementsModElements;
+
 @AllTheElementsModElements.ModElement.Tag
 public class NickelSwordItem extends AllTheElementsModElements.ModElement {
-
 	@ObjectHolder("all_the_elements:nickel_sword")
 	public static final Item block = null;
-
 	public NickelSwordItem(AllTheElementsModElements instance) {
 		super(instance, 58);
 	}
@@ -38,8 +47,6 @@ public class NickelSwordItem extends AllTheElementsModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(NickelIngotItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(ATEArmorItemGroup.tab)) {
-
 		}.setRegistryName("nickel_sword"));
 	}
-
 }

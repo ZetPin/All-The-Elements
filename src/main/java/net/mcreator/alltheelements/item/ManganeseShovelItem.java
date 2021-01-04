@@ -1,12 +1,21 @@
 
 package net.mcreator.alltheelements.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.alltheelements.itemgroup.ATEToolsItemGroup;
+import net.mcreator.alltheelements.AllTheElementsModElements;
+
 @AllTheElementsModElements.ModElement.Tag
 public class ManganeseShovelItem extends AllTheElementsModElements.ModElement {
-
 	@ObjectHolder("all_the_elements:manganese_shovel")
 	public static final Item block = null;
-
 	public ManganeseShovelItem(AllTheElementsModElements instance) {
 		super(instance, 45);
 	}
@@ -38,8 +47,6 @@ public class ManganeseShovelItem extends AllTheElementsModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(ManganeseIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ATEToolsItemGroup.tab)) {
-
 		}.setRegistryName("manganese_shovel"));
 	}
-
 }
