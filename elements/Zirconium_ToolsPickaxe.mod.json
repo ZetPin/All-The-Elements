@@ -5,13 +5,13 @@
     "renderType": 0,
     "texture": "zirconium_tools_pickaxe",
     "customModelName": "Normal",
-    "name": "Zirconium_Tools Pickaxe",
+    "name": "Zirconium Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 2,
+    "harvestLevel": 5,
     "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 14,

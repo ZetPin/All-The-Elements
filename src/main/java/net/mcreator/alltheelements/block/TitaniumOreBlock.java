@@ -23,7 +23,7 @@ public class TitaniumOreBlock extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:titanium_ore")
 	public static final Block block = null;
 	public TitaniumOreBlock(AllTheElementsModElements instance) {
-		super(instance, 47);
+		super(instance, 5);
 	}
 
 	@Override

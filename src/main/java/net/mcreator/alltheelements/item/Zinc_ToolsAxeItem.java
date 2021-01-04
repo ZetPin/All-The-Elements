@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import net.mcreator.alltheelements.itemgroup.ATEToolsItemGroup;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class Zinc_ToolsAxeItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zinc_tools_axe")
 	public static final Item block = null;
 	public Zinc_ToolsAxeItem(AllTheElementsModElements instance) {
-		super(instance, 85);
+		super(instance, 40);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class Zinc_ToolsAxeItem extends AllTheElementsModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(ZincIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(ATEToolsItemGroup.tab)) {
 		}.setRegistryName("zinc_tools_axe"));
 	}
 }

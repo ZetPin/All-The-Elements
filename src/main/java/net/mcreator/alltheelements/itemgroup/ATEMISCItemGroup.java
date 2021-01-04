@@ -13,7 +13,7 @@ import net.mcreator.alltheelements.AllTheElementsModElements;
 @AllTheElementsModElements.ModElement.Tag
 public class ATEMISCItemGroup extends AllTheElementsModElements.ModElement {
 	public ATEMISCItemGroup(AllTheElementsModElements instance) {
-		super(instance, 117);
+		super(instance, 143);
 	}
 
 	@Override

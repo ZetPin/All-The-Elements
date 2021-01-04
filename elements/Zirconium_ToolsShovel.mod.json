@@ -5,13 +5,13 @@
     "renderType": 0,
     "texture": "zirconium_tools_shovel",
     "customModelName": "Normal",
-    "name": "Zirconium_Tools Shovel",
+    "name": "Zirconium Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Spade",
-    "harvestLevel": 2,
+    "harvestLevel": 5,
     "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 14,

@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.alltheelements.itemgroup.ATEToolsItemGroup;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class CopperShovelItem extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:copper_shovel")
 	public static final Item block = null;
 	public CopperShovelItem(AllTheElementsModElements instance) {
-		super(instance, 22);
+		super(instance, 25);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class CopperShovelItem extends AllTheElementsModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(CopperIngotItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(ATEToolsItemGroup.tab)) {
 		}.setRegistryName("copper_shovel"));
 	}
 }

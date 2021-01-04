@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "zirconium_armors_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:ATEArmor"
     },
     "armorTextureFile": "zirconium_armors",
     "helmetName": "Zirconium_Armors Helmet",

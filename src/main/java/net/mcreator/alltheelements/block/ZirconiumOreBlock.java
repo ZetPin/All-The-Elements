@@ -23,7 +23,7 @@ public class ZirconiumOreBlock extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zirconium_ore")
 	public static final Block block = null;
 	public ZirconiumOreBlock(AllTheElementsModElements instance) {
-		super(instance, 60);
+		super(instance, 6);
 	}
 
 	@Override

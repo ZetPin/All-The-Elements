@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "malachite_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:ATEArmor"
     },
     "armorTextureFile": "malachite",
     "helmetName": "Malachite Helmet",

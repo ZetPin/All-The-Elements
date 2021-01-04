@@ -5,13 +5,13 @@
     "renderType": 0,
     "texture": "titanium_armor_pickaxe",
     "customModelName": "Normal",
-    "name": "Titanium_Armor Pickaxe",
+    "name": "Titanium Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 2,
+    "harvestLevel": 4,
     "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 14,

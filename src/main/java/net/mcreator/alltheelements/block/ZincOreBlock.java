@@ -23,7 +23,7 @@ public class ZincOreBlock extends AllTheElementsModElements.ModElement {
 	@ObjectHolder("all_the_elements:zinc_ore")
 	public static final Block block = null;
 	public ZincOreBlock(AllTheElementsModElements instance) {
-		super(instance, 81);
+		super(instance, 7);
 	}
 
 	@Override

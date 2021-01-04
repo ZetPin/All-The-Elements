@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "zinc_tools_shovel",
     "customModelName": "Normal",
-    "name": "Zinc_Tools Shovel",
+    "name": "Zinc Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Spade",
     "harvestLevel": 2,

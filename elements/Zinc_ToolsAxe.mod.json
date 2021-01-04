@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "zinc_tools_axe",
     "customModelName": "Normal",
-    "name": "Zinc_Tools Axe",
+    "name": "Zinc Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Axe",
     "harvestLevel": 2,
