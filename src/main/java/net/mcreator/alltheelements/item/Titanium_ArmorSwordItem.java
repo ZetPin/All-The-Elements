@@ -24,7 +24,7 @@ public class Titanium_ArmorSwordItem extends AllTheElementsModElements.ModElemen
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getEfficiency() {
@@ -32,11 +32,11 @@ public class Titanium_ArmorSwordItem extends AllTheElementsModElements.ModElemen
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +46,7 @@ public class Titanium_ArmorSwordItem extends AllTheElementsModElements.ModElemen
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TitaniumIngotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("titanium_armor_sword"));
 	}
 }

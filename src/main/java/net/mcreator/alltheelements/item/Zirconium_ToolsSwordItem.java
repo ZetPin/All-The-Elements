@@ -24,7 +24,7 @@ public class Zirconium_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 3250;
 			}
 
 			public float getEfficiency() {
@@ -32,11 +32,11 @@ public class Zirconium_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 13f;
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 5;
 			}
 
 			public int getEnchantability() {
