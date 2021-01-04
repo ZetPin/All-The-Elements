@@ -36,7 +36,7 @@ public class Zirconium_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 5;
 			}
 
 			public int getEnchantability() {

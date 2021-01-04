@@ -36,7 +36,7 @@ public class Zirconium_ToolsPickaxeItem extends AllTheElementsModElements.ModEle
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 5;
 			}
 
 			public int getEnchantability() {

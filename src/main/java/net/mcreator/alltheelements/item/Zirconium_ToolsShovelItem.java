@@ -36,7 +36,7 @@ public class Zirconium_ToolsShovelItem extends AllTheElementsModElements.ModElem
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 5;
 			}
 
 			public int getEnchantability() {

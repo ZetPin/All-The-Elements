@@ -36,7 +36,7 @@ public class Titanium_ArmorShovelItem extends AllTheElementsModElements.ModEleme
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 4;
 			}
 
 			public int getEnchantability() {

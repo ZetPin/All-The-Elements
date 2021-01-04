@@ -36,7 +36,7 @@ public class Titanium_ArmorPickaxeItem extends AllTheElementsModElements.ModElem
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 4;
 			}
 
 			public int getEnchantability() {
