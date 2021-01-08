@@ -1555,6 +1555,81 @@
           }
         ]
       }
+    },
+    {
+      "name": "Explaination",
+      "type": "gui",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explaination"
+    },
+    {
+      "name": "OpenForgeHelpGui",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_forge_help_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenForgeGui",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_forge_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1577,8 +1652,8 @@
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.manganese_armor_leggings": "Manganese Leggings",
       "item.all_the_elements.manganese_hoe": "Manganese Hoe",
-      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "item.all_the_elements.malachite_shovel": "Malachite Shovel",
+      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "item.all_the_elements.titanium_armor_sword": "Titanium Sword",
       "itemGroup.taball_the_elements": "A.T.E Ores",
       "block.all_the_elements.block_of_nickel": "Nickel Block",

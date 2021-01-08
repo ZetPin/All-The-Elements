@@ -85,6 +85,20 @@
           "x": 191,
           "y": 65
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "?",
+          "onClick": {
+            "name": "OpenForgeHelpGui"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "?",
+          "x": 242,
+          "y": 65
+        }
       }
     ]
   }
