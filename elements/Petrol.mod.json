@@ -14,7 +14,7 @@
     "creativeTab": {
       "value": "CUSTOM:ATEMISC"
     },
-    "frequencyOnChunks": 2,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],

@@ -50,7 +50,7 @@ public class PetrolBlock extends AllTheElementsModElements.ModElement {
 	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public PetrolBlock(AllTheElementsModElements instance) {
-		super(instance, 59);
+		super(instance, 67);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -95,7 +95,7 @@ public class PetrolBlock extends AllTheElementsModElements.ModElement {
 					return super.place(world, generator, rand, pos, config);
 				}
 			}.withConfiguration(new BlockStateFeatureConfig(block.getDefaultState()))
-					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(2))));
+					.withPlacement(Placement.WATER_LAKE.configure(new ChanceConfig(1))));
 		}
 	}
 }
