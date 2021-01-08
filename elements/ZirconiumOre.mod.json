@@ -25,7 +25,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "name": "Zirconium Ore",
-    "specialInfo": [],
+    "specialInfo": [
+      "Fusion Point : 1.855ºC"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
