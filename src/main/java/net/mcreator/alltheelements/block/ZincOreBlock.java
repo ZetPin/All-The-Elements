@@ -48,8 +48,7 @@ public class ZincOreBlock extends AllTheElementsModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Fusion Point : 419"));
-			list.add(new StringTextComponent("5\u00BAC"));
+			list.add(new StringTextComponent("Fusion Point : 419.5\u00BAC"));
 		}
 
 		@Override

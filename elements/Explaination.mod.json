@@ -108,6 +108,42 @@
           "x": 278,
           "y": 41
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thermite.png",
+          "use1Xscale": false,
+          "name": "thermite.png",
+          "x": 129,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "=",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "=",
+          "x": 146,
+          "y": 100
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2200ºC",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2200ºC",
+          "x": 153,
+          "y": 100
+        }
       }
     ],
     "onClosed": {

@@ -131,6 +131,8 @@ public class ExplainationGui extends AllTheElementsModElements.ModElement {
 			this.blit(this.guiLeft + 3, this.guiTop + 26, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("all_the_elements:textures/better_koal.png"));
 			this.blit(this.guiLeft + 3, this.guiTop + 43, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("all_the_elements:textures/thermite.png"));
+			this.blit(this.guiLeft + 3, this.guiTop + 59, 0, 0, 16, 16, 16, 16);
 		}
 
 		@Override
@@ -154,6 +156,8 @@ public class ExplainationGui extends AllTheElementsModElements.ModElement {
 			this.font.drawString("700\u00BAC", 27, 30, -12829636);
 			this.font.drawString("=", 20, 46, -12829636);
 			this.font.drawString("1200\u00BAC", 27, 46, -12829636);
+			this.font.drawString("=", 20, 63, -12829636);
+			this.font.drawString("2200\u00BAC", 27, 63, -12829636);
 		}
 
 		@Override
