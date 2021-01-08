@@ -1639,6 +1639,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "thermite"
+    },
+    {
+      "name": "ThermiteFuel",
+      "type": "fuel",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thermite_fuel"
+    },
+    {
+      "name": "ForgeRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forge_recipe"
+    },
+    {
+      "name": "Materials",
+      "type": "tab",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "materials"
     }
   ],
   "variable_elements": [],
@@ -1661,8 +1688,9 @@
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.manganese_armor_leggings": "Manganese Leggings",
       "item.all_the_elements.manganese_hoe": "Manganese Hoe",
-      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
       "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
+      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
+      "itemGroup.tabmaterials": "Materials",
       "item.all_the_elements.titanium_armor_sword": "Titanium Sword",
       "itemGroup.taball_the_elements": "A.T.E Ores",
       "block.all_the_elements.block_of_nickel": "Nickel Block",
