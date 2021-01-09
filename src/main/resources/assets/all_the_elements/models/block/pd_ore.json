@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "all_the_elements:blocks/palladium_ore",
+    "up": "all_the_elements:blocks/palladium_ore",
+    "north": "all_the_elements:blocks/palladium_ore",
+    "east": "all_the_elements:blocks/palladium_ore",
+    "south": "all_the_elements:blocks/palladium_ore",
+    "west": "all_the_elements:blocks/palladium_ore",
+    "particle": "all_the_elements:blocks/palladium_ore"
+  }
+}

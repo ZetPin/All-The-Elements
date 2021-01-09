@@ -1843,6 +1843,174 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "samarium_tools_hoe_recipe"
+    },
+    {
+      "name": "PdOre",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pd_ore"
+    },
+    {
+      "name": "PdIngot",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pd_ingot"
+    },
+    {
+      "name": "PdIngotRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pd_ingot_recipe"
+    },
+    {
+      "name": "Palladium_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_pickaxe"
+    },
+    {
+      "name": "Palladium_ToolsAxe",
+      "type": "tool",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_axe"
+    },
+    {
+      "name": "Palladium_ToolsSword",
+      "type": "tool",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_sword"
+    },
+    {
+      "name": "Palladium_ToolsShovel",
+      "type": "tool",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_shovel"
+    },
+    {
+      "name": "Palladium_ToolsHoe",
+      "type": "tool",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_hoe"
+    },
+    {
+      "name": "Palladium_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_pickaxe_recipe"
+    },
+    {
+      "name": "Palladium_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_axe_recipe"
+    },
+    {
+      "name": "Palladium_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_sword_recipe"
+    },
+    {
+      "name": "Palladium_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_shovel_recipe"
+    },
+    {
+      "name": "Palladium_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_hoe_recipe"
+    },
+    {
+      "name": "Palladium_ArmorArmor",
+      "type": "armor",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Palladium_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Palladium_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_body_recipe"
+    },
+    {
+      "name": "Palladium_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Palladium_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -1850,8 +2018,8 @@
   "language_map": {
     "en_us": {
       "item.all_the_elements.copper_hoe": "Copper Hoe",
-      "item.all_the_elements.zinc_armors_armor_leggings": "Zinc_Armors Leggings",
       "item.all_the_elements.titanium_armor_pickaxe": "Titanium Pickaxe",
+      "item.all_the_elements.zinc_armors_armor_leggings": "Zinc_Armors Leggings",
       "item.all_the_elements.titanium_ingot": "Titanium Ingot",
       "item.all_the_elements.zirconium_armors_armor_helmet": "Zirconium_Armors Helmet",
       "item.all_the_elements.zinc_armors_armor_helmet": "Zinc_Armors Helmet",
@@ -1867,11 +2035,12 @@
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.manganese_armor_leggings": "Manganese Leggings",
       "item.all_the_elements.manganese_hoe": "Manganese Hoe",
-      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
       "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
+      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
       "itemGroup.tabmaterials": "Materials",
       "item.all_the_elements.titanium_armor_sword": "Titanium Sword",
       "item.all_the_elements.hydrogene_bucket": "Hydrogene Bucket",
+      "item.all_the_elements.palladium_armor_armor_boots": "Palladium_Armor Boots",
       "itemGroup.taball_the_elements": "A.T.E Ores",
       "block.all_the_elements.block_of_nickel": "Nickel Block",
       "item.all_the_elements.copper_shovel": "Copper Shovel",
@@ -1880,7 +2049,9 @@
       "item.all_the_elements.nickel_armor_boots": "Nickel Boots",
       "item.all_the_elements.manganese_armor_chestplate": "Manganese Chestplate",
       "item.all_the_elements.zinc_armors_armor_chestplate": "Zinc_Armors Chestplate",
+      "item.all_the_elements.palladium_tools_hoe": "Palladium_Tools Hoe",
       "item.all_the_elements.zirconium_armors_armor_boots": "Zirconium_Armors Boots",
+      "block.all_the_elements.pd_ore": "Pd Ore",
       "item.all_the_elements.manganese_axe": "Manganese Axe",
       "item.all_the_elements.cobalt_armor_helmet": "Cobalt Helmet",
       "item.all_the_elements.zirconium_tools_axe": "Zirconium Axe",
@@ -1896,11 +2067,13 @@
       "item.all_the_elements.nickel_pickaxe": "Nickel Pickaxe",
       "item.all_the_elements.zinc_tools_sword": "Zinc Sword",
       "item.all_the_elements.copper_armor_boots": "Copper Boots",
+      "item.all_the_elements.palladium_tools_axe": "Palladium_Tools Axe",
       "item.all_the_elements.samarium_armor_leggings": "Samarium Leggings",
       "item.all_the_elements.zinc_ingot": "Zinc Ingot",
       "item.all_the_elements.titanium_armor_helmet": "Titanium Helmet",
       "item.all_the_elements.cobalt_ingot": "Cobalt Ingot",
       "item.all_the_elements.malachite_sword": "Malachite Sword",
+      "item.all_the_elements.palladium_armor_armor_helmet": "Palladium_Armor Helmet",
       "item.all_the_elements.samarium_armor_boots": "Samarium Boots",
       "item.all_the_elements.zirconium_tools_hoe": "Zirconium Hoe",
       "item.all_the_elements.cobalt_pickaxe": "Cobalt Pickaxe",
@@ -1917,6 +2090,7 @@
       "itemGroup.tabatemisc": "A.T.E MISC",
       "item.all_the_elements.copper_pickaxe": "Copper Pickaxe",
       "fluid.hydrogene": "Hydrogene",
+      "item.all_the_elements.palladium_armor_armor_leggings": "Palladium_Armor Leggings",
       "itemGroup.tabate_armor": "A.T.E Armors",
       "item.all_the_elements.nickel_sword": "Nickel Sword",
       "item.all_the_elements.zinc_armors_armor_boots": "Zinc_Armors Boots",
@@ -1928,6 +2102,7 @@
       "item.all_the_elements.copper_armor_chestplate": "Copper Chestplate",
       "item.all_the_elements.nickel_armor_chestplate": "Nickel Chestplate",
       "item.all_the_elements.manganese_pickaxe": "Manganese Pickaxe",
+      "item.all_the_elements.palladium_tools_shovel": "Palladium_Tools Shovel",
       "item.all_the_elements.samarium_tools_sword": "Samarium_Tools Sword",
       "item.all_the_elements.malachite_pickaxe": "Malachite Pickaxe",
       "item.all_the_elements.cobalt_shovel": "Cobalt Shovel",
@@ -1937,6 +2112,7 @@
       "block.all_the_elements.samarium_ore": "Samarium Ore",
       "item.all_the_elements.titanium_armor_shovel": "Titanium Shovel",
       "item.all_the_elements.nickel_nugget": "Nickel Nugget",
+      "item.all_the_elements.pd_ingot": "Pd Ingot",
       "item.all_the_elements.copper_sword": "Copper Sword",
       "block.all_the_elements.nikel_ore": "Nickel Ore",
       "item.all_the_elements.malachite_armor_boots": "Malachite Boots",
@@ -1956,11 +2132,14 @@
       "fluid.petrol": "Petrol",
       "item.all_the_elements.malachite_axe": "Malachite Axe",
       "item.all_the_elements.manganese_shovel": "Manganese Shovel",
+      "item.all_the_elements.palladium_tools_sword": "Palladium_Tools Sword",
       "block.all_the_elements.zirconium_ore": "Zirconium Ore",
       "item.all_the_elements.malachite_armor_helmet": "Malachite Helmet",
       "item.all_the_elements.titanium_armor_chestplate": "Titanium Chestplate",
       "item.all_the_elements.zinc_tools_hoe": "Zinc Hoe",
+      "item.all_the_elements.palladium_armor_armor_chestplate": "Palladium_Armor Chestplate",
       "item.all_the_elements.titanium_armor_boots": "Titanium Boots",
+      "item.all_the_elements.palladium_tools_pickaxe": "Palladium_Tools Pickaxe",
       "item.all_the_elements.samarium_tools_axe": "Samarium_Tools Axe",
       "itemGroup.tabate_tools": "A.T.E Tools",
       "item.all_the_elements.zirconium_tools_pickaxe": "Zirconium Pickaxe"
