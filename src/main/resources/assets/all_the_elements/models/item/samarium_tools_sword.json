@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "all_the_elements:items/samarium_tools_sword"
+  }
+}
