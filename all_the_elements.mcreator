@@ -1666,6 +1666,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "materials"
+    },
+    {
+      "name": "Hydrogene",
+      "type": "fluid",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrogene"
     }
   ],
   "variable_elements": [],
@@ -1688,10 +1697,11 @@
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.manganese_armor_leggings": "Manganese Leggings",
       "item.all_the_elements.manganese_hoe": "Manganese Hoe",
-      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
       "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
+      "item.all_the_elements.malachite_shovel": "Malachite Shovel",
       "itemGroup.tabmaterials": "Materials",
       "item.all_the_elements.titanium_armor_sword": "Titanium Sword",
+      "item.all_the_elements.hydrogene_bucket": "Hydrogene Bucket",
       "itemGroup.taball_the_elements": "A.T.E Ores",
       "block.all_the_elements.block_of_nickel": "Nickel Block",
       "item.all_the_elements.copper_shovel": "Copper Shovel",
@@ -1731,6 +1741,7 @@
       "item.all_the_elements.zirconium_armors_armor_chestplate": "Zirconium_Armors Chestplate",
       "itemGroup.tabatemisc": "A.T.E MISC",
       "item.all_the_elements.copper_pickaxe": "Copper Pickaxe",
+      "fluid.hydrogene": "Hydrogene",
       "itemGroup.tabate_armor": "A.T.E Armors",
       "item.all_the_elements.nickel_sword": "Nickel Sword",
       "item.all_the_elements.zinc_armors_armor_boots": "Zinc_Armors Boots",

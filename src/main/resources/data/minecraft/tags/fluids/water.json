@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "all_the_elements:petrol",
-    "all_the_elements:petrol_flowing"
+    "all_the_elements:petrol_flowing",
+    "all_the_elements:hydrogene",
+    "all_the_elements:hydrogene_flowing"
   ]
 }
