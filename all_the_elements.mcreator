@@ -1688,8 +1688,8 @@
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.manganese_armor_leggings": "Manganese Leggings",
       "item.all_the_elements.manganese_hoe": "Manganese Hoe",
-      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "item.all_the_elements.malachite_shovel": "Malachite Shovel",
+      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "itemGroup.tabmaterials": "Materials",
       "item.all_the_elements.titanium_armor_sword": "Titanium Sword",
       "itemGroup.taball_the_elements": "A.T.E Ores",
@@ -1779,7 +1779,7 @@
   "workspaceSettings": {
     "modid": "all_the_elements",
     "modName": "ALL THE ELEMENTS",
-    "version": "1.0.0",
+    "version": "4.7.0",
     "author": "Usuari, MCreator",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
@@ -1789,6 +1789,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.alltheelements",
     "lockBaseModFiles": false
   },
