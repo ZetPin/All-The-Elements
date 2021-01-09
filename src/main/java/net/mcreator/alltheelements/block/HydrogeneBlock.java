@@ -72,7 +72,7 @@ public class HydrogeneBlock extends AllTheElementsModElements.ModElement {
 		fluidproperties = new ForgeFlowingFluid.Properties(() -> still, () -> flowing,
 				FluidAttributes
 						.builder(new ResourceLocation("all_the_elements:blocks/hidrogene"), new ResourceLocation("all_the_elements:blocks/hidrogene"))
-						.luminosity(0).density(-1000).viscosity(1000).gaseous()).bucket(() -> bucket).block(() -> block);
+						.luminosity(0).density(-100000).viscosity(0).gaseous()).bucket(() -> bucket).block(() -> block);
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("hydrogene");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("hydrogene_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
