@@ -1852,6 +1852,174 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hydrogene_lake"
+    },
+    {
+      "name": "Palladium_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Palladium_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_boots_recipe"
+    },
+    {
+      "name": "Palladium_ArmorArmor",
+      "type": "armor",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PdIngotRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pd_ingot_recipe"
+    },
+    {
+      "name": "Palladium_ToolsSword",
+      "type": "tool",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_sword"
+    },
+    {
+      "name": "Palladium_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_pickaxe_recipe"
+    },
+    {
+      "name": "Palladium_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_pickaxe"
+    },
+    {
+      "name": "Palladium_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_axe_recipe"
+    },
+    {
+      "name": "Palladium_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_shovel_recipe"
+    },
+    {
+      "name": "Palladium_ToolsHoe",
+      "type": "tool",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_hoe"
+    },
+    {
+      "name": "Palladium_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_sword_recipe"
+    },
+    {
+      "name": "Palladium_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_hoe_recipe"
+    },
+    {
+      "name": "Palladium_ToolsShovel",
+      "type": "tool",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_shovel"
+    },
+    {
+      "name": "Palladium_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_body_recipe"
+    },
+    {
+      "name": "PdOre",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pd_ore"
+    },
+    {
+      "name": "Palladium_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "PdIngot",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pd_ingot"
+    },
+    {
+      "name": "Palladium_ToolsAxe",
+      "type": "tool",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_tools_axe"
     }
   ],
   "variable_elements": [],
