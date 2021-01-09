@@ -1668,15 +1668,6 @@
       "registry_name": "materials"
     },
     {
-      "name": "SamariumOre",
-      "type": "block",
-      "sortid": 171,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "samarium_ore"
-    },
-    {
       "name": "SamariumIngot",
       "type": "item",
       "sortid": 172,
@@ -1686,6 +1677,15 @@
       "registry_name": "samarium_ingot"
     },
     {
+      "name": "SamariumOre",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "samarium_ore"
+    },
+    {
       "name": "SamariumIngotRecipe",
       "type": "recipe",
       "sortid": 172,
@@ -1693,6 +1693,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "samarium_ingot_recipe"
+    },
+    {
+      "name": "Hydrogene",
+      "type": "fluid",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrogene"
     }
   ],
   "variable_elements": [],
@@ -1710,7 +1719,6 @@
       "block.all_the_elements.zinc_ore": "Zinc Ore",
       "item.all_the_elements.titanium_armor_hoe": "Titanium Hoe",
       "item.all_the_elements.nickel_armor_leggings": "Nickel Leggings",
-      "item.all_the_elements.samarium_ingot": "Samarium Ingot",
       "item.all_the_elements.malachite_armor_leggings": "Malachite Leggings",
       "item.all_the_elements.malachite_hoe": "Malachite Hoe",
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
@@ -1775,7 +1783,6 @@
       "item.all_the_elements.zinc_tools_shovel": "Zinc Shovel",
       "item.all_the_elements.manganese_ingot": "Manganese Ingot",
       "block.all_the_elements.forge": "Forge",
-      "block.all_the_elements.samarium_ore": "Samarium Ore",
       "item.all_the_elements.titanium_armor_shovel": "Titanium Shovel",
       "item.all_the_elements.nickel_nugget": "Nickel Nugget",
       "item.all_the_elements.copper_sword": "Copper Sword",
