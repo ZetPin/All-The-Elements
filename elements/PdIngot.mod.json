@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "palladium_ore",
     "customModelName": "Normal",
-    "name": "Pd Ingot",
+    "name": "Palladium Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Materials"
