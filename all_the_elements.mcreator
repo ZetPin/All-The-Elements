@@ -29,15 +29,6 @@
       "registry_name": "nickel_ingot"
     },
     {
-      "name": "Nickelingotsmelting",
-      "type": "recipe",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nickelingotsmelting"
-    },
-    {
       "name": "CopperIngot",
       "type": "item",
       "sortid": 10,
@@ -45,15 +36,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copper_ingot"
-    },
-    {
-      "name": "CopperIngotSmelting",
-      "type": "recipe",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "copper_ingot_smelting"
     },
     {
       "name": "MalachiteIngot",
@@ -72,15 +54,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "malachite_ore"
-    },
-    {
-      "name": "MalachiteIngotSmelting",
-      "type": "recipe",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "malachite_ingot_smelting"
     },
     {
       "name": "MalachitePickaxe",
@@ -641,15 +614,6 @@
       "registry_name": "cobalt_armor_boots_recipe"
     },
     {
-      "name": "TitaniumIngotSmelting",
-      "type": "recipe",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "titanium_ingot_smelting"
-    },
-    {
       "name": "ZirconiumIngot",
       "type": "item",
       "sortid": 14,
@@ -870,15 +834,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zinc_ingot"
-    },
-    {
-      "name": "ZincIngotSmelting",
-      "type": "recipe",
-      "sortid": 118,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zinc_ingot_smelting"
     },
     {
       "name": "Zinc_ArmorsArmorBodyRecipe",
@@ -1124,15 +1079,6 @@
       "registry_name": "nickel_armor_boots_recipe"
     },
     {
-      "name": "ZirconiumIngotSmelting",
-      "type": "recipe",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "zirconium_ingot_smelting"
-    },
-    {
       "name": "IngotToNuggetNickel",
       "type": "recipe",
       "sortid": 137,
@@ -1239,15 +1185,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "manganese_ingot"
-    },
-    {
-      "name": "ManganeseSmelting",
-      "type": "recipe",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "manganese_smelting"
     },
     {
       "name": "ManganesePickaxe",
@@ -2157,7 +2094,7 @@
   "workspaceSettings": {
     "modid": "all_the_elements",
     "modName": "ALL THE ELEMENTS",
-    "version": "4.7.0",
+    "version": "5.3.0",
     "author": "Usuari, MCreator",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
