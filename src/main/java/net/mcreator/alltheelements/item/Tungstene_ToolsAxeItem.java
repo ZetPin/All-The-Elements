@@ -24,7 +24,7 @@ public class Tungstene_ToolsAxeItem extends AllTheElementsModElements.ModElement
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class Tungstene_ToolsAxeItem extends AllTheElementsModElements.ModElement
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 13f;
 			}
 
 			public int getHarvestLevel() {

@@ -24,7 +24,7 @@ public class Tungstene_ToolsPickaxeItem extends AllTheElementsModElements.ModEle
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class Tungstene_ToolsPickaxeItem extends AllTheElementsModElements.ModEle
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 1f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,7 +40,7 @@ public class Tungstene_ToolsPickaxeItem extends AllTheElementsModElements.ModEle
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 17;
 			}
 
 			public Ingredient getRepairMaterial() {

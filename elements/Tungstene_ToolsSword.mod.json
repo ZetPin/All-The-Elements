@@ -8,15 +8,15 @@
     "name": "Tungstene_Tools Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:ATETools"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
     "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
-    "damageVsEntity": 6.0,
-    "usageCount": 250,
+    "damageVsEntity": 12.0,
+    "usageCount": 2500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

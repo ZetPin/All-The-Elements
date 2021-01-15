@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.alltheelements.itemgroup.ATEToolsItemGroup;
 import net.mcreator.alltheelements.AllTheElementsModElements;
 
 @AllTheElementsModElements.ModElement.Tag
@@ -24,7 +24,7 @@ public class Tungstene_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class Tungstene_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 10f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,7 +46,7 @@ public class Tungstene_ToolsSwordItem extends AllTheElementsModElements.ModEleme
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TungsteneIngotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(ATEToolsItemGroup.tab)) {
 		}.setRegistryName("tungstene_tools_sword"));
 	}
 }

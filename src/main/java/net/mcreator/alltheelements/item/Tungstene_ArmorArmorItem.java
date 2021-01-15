@@ -36,7 +36,7 @@ public class Tungstene_ArmorArmorItem extends AllTheElementsModElements.ModEleme
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 45;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
@@ -61,7 +61,7 @@ public class Tungstene_ArmorArmorItem extends AllTheElementsModElements.ModEleme
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 3.5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

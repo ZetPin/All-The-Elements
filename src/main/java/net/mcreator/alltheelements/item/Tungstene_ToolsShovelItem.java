@@ -24,7 +24,7 @@ public class Tungstene_ToolsShovelItem extends AllTheElementsModElements.ModElem
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getEfficiency() {
@@ -32,7 +32,7 @@ public class Tungstene_ToolsShovelItem extends AllTheElementsModElements.ModElem
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
