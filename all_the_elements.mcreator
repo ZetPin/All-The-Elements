@@ -2152,6 +2152,174 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "salt"
+    },
+    {
+      "name": "Rubidium_ToolsSword",
+      "type": "tool",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_sword"
+    },
+    {
+      "name": "Rubidium_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_armor_armor_body_recipe"
+    },
+    {
+      "name": "RubidiumOre",
+      "type": "block",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_ore"
+    },
+    {
+      "name": "Rubidium_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_shovel_recipe"
+    },
+    {
+      "name": "Rubidium_ToolsAxe",
+      "type": "tool",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_axe"
+    },
+    {
+      "name": "Rubidium_ArmorArmor",
+      "type": "armor",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Rubidium_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Rubidium_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Rubidium_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_pickaxe_recipe"
+    },
+    {
+      "name": "RubidiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_ingot_recipe"
+    },
+    {
+      "name": "Rubidium_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_pickaxe"
+    },
+    {
+      "name": "Rubidium_ToolsShovel",
+      "type": "tool",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_shovel"
+    },
+    {
+      "name": "Rubidium_ToolsHoe",
+      "type": "tool",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_hoe"
+    },
+    {
+      "name": "Rubidium_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_sword_recipe"
+    },
+    {
+      "name": "Rubidium_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_axe_recipe"
+    },
+    {
+      "name": "Rubidium_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_armor_armor_boots_recipe"
+    },
+    {
+      "name": "RubidiumIngot",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_ingot"
+    },
+    {
+      "name": "Rubidium_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_tools_hoe_recipe"
     }
   ],
   "variable_elements": [],

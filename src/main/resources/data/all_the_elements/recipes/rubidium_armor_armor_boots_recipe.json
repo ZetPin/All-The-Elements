@@ -1,0 +1,26 @@
+{
+  "group": "all_the_elements",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "all_the_elements:unknown_element"
+    },
+    "2": {
+      "item": "all_the_elements:unknown_element"
+    },
+    "3": {
+      "item": "all_the_elements:unknown_element"
+    },
+    "5": {
+      "item": "all_the_elements:unknown_element"
+    }
+  },
+  "result": {
+    "item": "all_the_elements:rubidium_armor_armor_boots",
+    "count": 1
+  }
+}

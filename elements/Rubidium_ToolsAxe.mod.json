@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rubidium_tools_axe",
+    "customModelName": "Normal",
+    "name": "Rubidium_Tools Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 13,
+    "damageVsEntity": 8.0,
+    "usageCount": 216,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:RubidiumIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
