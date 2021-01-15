@@ -1,0 +1,29 @@
+{
+  "group": "all_the_elements",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "all_the_elements:rubidium_ingot"
+    },
+    "1": {
+      "item": "all_the_elements:rubidium_ingot"
+    },
+    "2": {
+      "item": "all_the_elements:rubidium_ingot"
+    },
+    "3": {
+      "item": "all_the_elements:rubidium_ingot"
+    },
+    "5": {
+      "item": "all_the_elements:rubidium_ingot"
+    }
+  },
+  "result": {
+    "item": "all_the_elements:rubidium_armor_armor_helmet",
+    "count": 1
+  }
+}
