@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "all_the_elements:blocks/salt",
-    "up": "all_the_elements:blocks/salt",
-    "north": "all_the_elements:blocks/salt",
-    "east": "all_the_elements:blocks/salt",
-    "south": "all_the_elements:blocks/salt",
-    "west": "all_the_elements:blocks/salt",
-    "particle": "all_the_elements:blocks/salt"
+    "down": "all_the_elements:blocks/sodium",
+    "up": "all_the_elements:blocks/sodium",
+    "north": "all_the_elements:blocks/sodium",
+    "east": "all_the_elements:blocks/sodium",
+    "south": "all_the_elements:blocks/sodium",
+    "west": "all_the_elements:blocks/sodium",
+    "particle": "all_the_elements:blocks/sodium"
   }
 }
