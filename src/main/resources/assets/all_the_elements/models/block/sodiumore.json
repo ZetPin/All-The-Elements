@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "all_the_elements:blocks/salt",
+    "up": "all_the_elements:blocks/salt",
+    "north": "all_the_elements:blocks/salt",
+    "east": "all_the_elements:blocks/salt",
+    "south": "all_the_elements:blocks/salt",
+    "west": "all_the_elements:blocks/salt",
+    "particle": "all_the_elements:blocks/salt"
+  }
+}
