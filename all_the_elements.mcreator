@@ -2002,6 +2002,147 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sodiumore"
+    },
+    {
+      "name": "Tungstene_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_axe_recipe"
+    },
+    {
+      "name": "Tungstene_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Tungstene_ToolsSword",
+      "type": "tool",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_sword"
+    },
+    {
+      "name": "Tungstene_ArmorArmor",
+      "type": "armor",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Tungstene_ToolsAxe",
+      "type": "tool",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_axe"
+    },
+    {
+      "name": "Tungstene_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_armor_armor_boots_recipe"
+    },
+    {
+      "name": "Tungstene_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Tungstene_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_pickaxe_recipe"
+    },
+    {
+      "name": "Tungstene_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_sword_recipe"
+    },
+    {
+      "name": "Tungstene_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_shovel_recipe"
+    },
+    {
+      "name": "Tungstene_ToolsHoe",
+      "type": "tool",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_hoe"
+    },
+    {
+      "name": "Tungstene_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_pickaxe"
+    },
+    {
+      "name": "Tungstene_ToolsShovel",
+      "type": "tool",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_shovel"
+    },
+    {
+      "name": "Tungstene_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_tools_hoe_recipe"
+    },
+    {
+      "name": "Tungstene_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungstene_armor_armor_body_recipe"
     }
   ],
   "variable_elements": [],
@@ -2037,7 +2178,6 @@
       "item.all_the_elements.copper_shovel": "Copper Shovel",
       "item.all_the_elements.zirconium_armors_armor_leggings": "Zirconium_Armors Leggings",
       "item.all_the_elements.cobalt_axe": "Cobalt Axe",
-      "block.all_the_elements.sodiumore": "Sodiumore",
       "item.all_the_elements.nickel_armor_boots": "Nickel Boots",
       "item.all_the_elements.manganese_armor_chestplate": "Manganese Chestplate",
       "item.all_the_elements.zinc_armors_armor_chestplate": "Zinc_Armors Chestplate",
