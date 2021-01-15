@@ -2152,6 +2152,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "salt"
+    },
+    {
+      "name": "RubidiumOre",
+      "type": "block",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_ore"
+    },
+    {
+      "name": "RubidiumIngot",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_ingot"
+    },
+    {
+      "name": "RubidiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubidium_ingot_recipe"
     }
   ],
   "variable_elements": [],
@@ -2159,15 +2186,15 @@
   "language_map": {
     "en_us": {
       "item.all_the_elements.copper_hoe": "Copper Hoe",
-      "item.all_the_elements.titanium_armor_pickaxe": "Titanium Pickaxe",
       "item.all_the_elements.zinc_armors_armor_leggings": "Zinc_Armors Leggings",
+      "item.all_the_elements.titanium_armor_pickaxe": "Titanium Pickaxe",
       "item.all_the_elements.titanium_ingot": "Titanium Ingot",
       "item.all_the_elements.zirconium_armors_armor_helmet": "Zirconium_Armors Helmet",
       "item.all_the_elements.zinc_armors_armor_helmet": "Zinc_Armors Helmet",
       "block.all_the_elements.malachite_ore": "Malachite Ore",
       "item.all_the_elements.zirconium_ingot": "Zirconium Ingot",
-      "item.all_the_elements.samarium_tools_hoe": "Samarium Hoe",
       "block.all_the_elements.zinc_ore": "Zinc Ore",
+      "item.all_the_elements.samarium_tools_hoe": "Samarium Hoe",
       "item.all_the_elements.titanium_armor_hoe": "Titanium Hoe",
       "item.all_the_elements.nickel_armor_leggings": "Nickel Leggings",
       "item.all_the_elements.samarium_ingot": "Samarium Ingot",
@@ -2177,8 +2204,8 @@
       "item.all_the_elements.cobalt_armor_boots": "Cobalt Boots",
       "item.all_the_elements.manganese_armor_leggings": "Manganese Leggings",
       "item.all_the_elements.manganese_hoe": "Manganese Hoe",
-      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "item.all_the_elements.malachite_shovel": "Malachite Shovel",
+      "item.all_the_elements.zinc_tools_axe": "Zinc Axe",
       "itemGroup.tabmaterials": "Materials",
       "item.all_the_elements.titanium_armor_sword": "Titanium Sword",
       "item.all_the_elements.hydrogene_bucket": "Hydrogene Bucket",
@@ -2192,6 +2219,7 @@
       "item.all_the_elements.nickel_armor_boots": "Nickel Boots",
       "item.all_the_elements.manganese_armor_chestplate": "Manganese Chestplate",
       "item.all_the_elements.tungstene_armor_armor_chestplate": "Tungstene_Armor Chestplate",
+      "item.all_the_elements.rubidium_ingot": "Rubidium Ingot",
       "item.all_the_elements.zinc_armors_armor_chestplate": "Zinc_Armors Chestplate",
       "item.all_the_elements.palladium_tools_hoe": "Palladium Hoe",
       "item.all_the_elements.zirconium_armors_armor_boots": "Zirconium_Armors Boots",
@@ -2279,6 +2307,7 @@
       "item.all_the_elements.nickel_axe": "Nickel Axe",
       "item.all_the_elements.cobalt_sword": "Cobalt Sword",
       "item.all_the_elements.thermite": "Thermite",
+      "block.all_the_elements.rubidium_ore": "Rubidium Ore",
       "item.all_the_elements.tungstene_ingot": "Tungstene Ingot",
       "item.all_the_elements.cobalt_hoe": "Cobalt Hoe",
       "fluid.petrol": "Petrol",
